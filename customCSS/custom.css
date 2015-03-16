@@ -1,0 +1,134 @@
+/*fonts*/
+@font-face{
+	font-family: "basic_title_font";
+	src: url("../fonts/basictitlefont.ttf") format("truetype");
+}
+@font-face{
+	font-family: "sanford";
+	src: url("../fonts/Sanford-0103_demo.ttf") format("truetype");
+}
+
+/*bootstrap overrides*/
+.navbar-nav {
+	border: none;
+	text-transform: uppercase;
+	font-size:12px;
+}
+.navbar{
+	background-color:#fff;
+}
+.navbar-brand {
+	text-transform: uppercase;
+}
+.navbar-toggle{
+	background-color:#eee !important;
+}
+.btn {
+	text-transform: uppercase;
+	font-size:12px;
+}
+.icon-bar{
+	background-color: #888888 !important;
+}
+.carousel-caption{
+	text-align: center;
+	position: initial;
+}
+.item{
+	height:400px;
+}
+.dropdown-menu > li > a {
+	text-transform: none;
+	color:#337ab7;
+}
+
+
+/*Custom CSS*/
+.page-welcome {
+	height: 100%;
+}
+.center {
+    bottom: 0; left: 0; top: 0; right: 0;
+    margin: auto;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+	width:100%;
+	text-align: center;
+	/*margin:0 auto;
+	//the left and right margins are increased until it becomes centered along
+	//the y-axix of the viewport
+	*/
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 80px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.footer-text {
+	padding-top:1%;
+	font-family: Arial;
+	font-size:14px;
+	font-style: italic;
+}
+.footer-adjust{
+	height:10%;
+	width:100%;
+}
+
+/*-- Section CSS*/
+.welcome-section{
+	background-image:url("../images/office_overlay.jpg");
+	background-size: cover;
+	width: 100%;
+    height: 100%;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.welcome-text{
+	font-family: "basic_title_font", Arial;
+	font-size:60px;
+}
+.subtitle{
+	font-size:20px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.welcome-carousel{
+	position: relative;
+	padding-top:3%;
+	padding-bottom: 3%;
+	background-color: #eeeeee;
+	background-size:cover;
+}
+.item-office{
+	background-image:url("../images/land5.jpg");
+	background-size:cover;
+}
+.font-heavy{
+	font-weight: 600;
+}
+.font-very-heavy{
+	font-weight: 800;
+}
+
+.statement-section{
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+.statement-container{
+	text-align: center;
+
+}
+.statement-heading{
+	font-family: "sanford",georgia,serif;
+	font-size:45px;
+}
+.statement-details{
+	font-family: "sanford",georgia,serif;
+	font-size:25px;
+}
