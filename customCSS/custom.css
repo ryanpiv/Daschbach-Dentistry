@@ -45,7 +45,7 @@
 	color:#6E7574;
 }
 
-/*Custom CSS*/
+/*Generic CSS*/
 .page-welcome {
 	height: 100%;
 }
@@ -82,8 +82,35 @@
 	height:10%;
 	width:100%;
 }
+.font-heavy{
+	font-weight: 600;
+}
+.font-very-heavy{
+	font-weight: 800;
+}
+.img-fill-column{
+	width:100%;
+}
+.img-inline{
+	display: inline;
+}
+.float-right{
+	float: right;
+}
+.float-left{
+	float:left;
+}
+.p-inline{
+	display: inline;
+}
+.h-inline{
+	display: inline;
+}
+.black-shadow{
+	text-shadow: 2px 2px #6E7574;
+}
 
-/*-- Section CSS*/
+/*--index.html*/
 .welcome-section{
 	background-image:url("../images/office_overlay.jpg");
 	background-size: cover;
@@ -112,13 +139,6 @@
 	background-image:url("../images/land5.jpg");
 	background-size:cover;
 }
-.font-heavy{
-	font-weight: 600;
-}
-.font-very-heavy{
-	font-weight: 800;
-}
-
 .statement-section{
 	padding-top: 6%;
 	padding-bottom: 6%;
@@ -175,4 +195,100 @@
 .btn-all-container{
 	margin-top:1%;
 	margin-bottom: 1%
+}
+
+/*meet_the_doctors.html*/
+.section-doctors-main{
+	background-color: #fff;
+	width:100%;
+	height:100%;
+	padding-top:2%;
+}
+.section-doctors-main-header{
+	text-align: center;
+	color:#6E7574;
+}
+.section-doctors-main-header > h2{
+	text-transform: uppercase;
+}
+.section-doctors-main-img{
+	width:100%;
+}
+.section-doctors-subtitle{
+	text-transform: uppercase;
+	text-align: center;
+}
+.section-bob-about{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-color: #9BBFBB;
+	width: 100%;
+}
+.section-bob-about-header1{
+	color:white;
+	text-transform: uppercase;
+	padding-bottom:2%;
+}
+.section-bob-about-header2{
+	text-transform: uppercase;
+	color: white;
+}
+.section-marie-about{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	width: 100%;
+}
+.section-marie-about-header1{
+	text-transform: uppercase;
+	color:#9BBFBB;
+	padding-bottom:2%;
+}
+.section-marie-about-header2{
+	text-transform: uppercase;
+	color:#9BBFBB;	
+}
+.img-marie{
+	padding: 1%;
+}
+.img-bob{
+	padding: 1%;
+	display: inline;
+}
+.list-scott-accomplishments{
+	margin-bottom: 0;
+}
+.scott-panel-body{
+	background-color: #d9edf7;
+}
+.paul-panel-body{
+	background-color: #faebcc;
+}
+.paul-panel-info{
+	width:70%;
+	display: inline-block;
+}
+.section-sarah-about{
+	padding-top: 3%;
+	padding-bottom: 5%;
+	width: 100%;
+}
+
+/*mission_statement.html*/
+.section-statement-main{
+	width:100%;
+	height:100%;
+	padding-top:2%;
+}
+.statement-main-heading{
+	text-transform: uppercase;
+	text-align: center;
+	color: #57C31F;
+	/*color: #B9DAA9;*/
+}
+.statement-block{
+	background-color: #337ab7;
+	height:250px;
+}
+.statement-space{
+	padding-top:2%;
 }
