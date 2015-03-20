@@ -7,6 +7,10 @@
 	font-family: "sanford";
 	src: url("../fonts/Sanford-0103_demo.ttf") format("truetype");
 }
+@font-face{
+	font-family: 'Montserrat', sans-serif;
+	src: url("http://fonts.googleapis.com/css?family=Montserrat");
+}
 
 /*bootstrap overrides*/
 .navbar-nav {
@@ -44,6 +48,22 @@
 .list-group-item, .panel-body{
 	color:#6E7574;
 }
+body.modal-open {
+	overflow: visible !important;
+}
+.modal-body {
+	height: 80%;
+}
+.iframe-forms{
+	width: 100%;
+	height: 100%;
+}
+@media (min-width: 1100px) {
+	.modal-lg{
+		width:1100px;
+	}
+}
+
 
 /*Generic CSS*/
 .page-welcome {
@@ -290,5 +310,12 @@
 	height:250px;
 }
 .statement-space{
+	padding-top:2%;
+}
+
+/*new_patient_forms.html*/
+.section-forms-buttons{
+	width:100%;
+	height:100%;
 	padding-top:2%;
 }

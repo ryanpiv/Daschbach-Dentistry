@@ -1,0 +1,214 @@
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
+    <link href="customCSS/custom.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">R.L. Dashbach & Associates</a>
+                </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="dropdown dropdown-toggle" id="dropwdownMenu1" data-toggle="dropdown" aria-expanded="true">Services
+                            <span class="caret"></span>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">View All Services</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Emergency Services</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Periodontal Services</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Restorative Services</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Prosthetic Services</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Veneer & Cosmetic Services</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Dental Implant Therapy</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Pediatrics and Prevention</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Financial and Insurance</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Meet the Doctors
+                            <span class="caret"></span>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="meet_the_doctors.html">Meet the Doctors</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="mission_statement.html">Mission Statement</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li><a href="#">New Patient Forms</a></li>
+                    <li><a href="#">Photo Gallery</a></li>
+                    <li><a href="#">Our Staff</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section class="section-forms-buttons">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-forms-main-heading1">New Patient Forms</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Hippa Form 1</h1>
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#hippa1Modal">Hippa Privacy Form 1</button>
+                </div>
+                <div class="col-lg-6">
+                    <h1>Hippa Form 2</h1>
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#hippa2Modal">Hippa Privacy Form 2</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Medical History Form</h1>
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#medHistModal">Medical History Form</button>
+                </div>
+                <div class="col-lg-6">
+                    <h1>Surgical Form</h1>
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#surgModal">Surgical Form</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <!-- Hippa 1 Modal -->
+                <div class="modal fade" id="hippa1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Hippa Privacy Form 1</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <iframe class="iframe-forms" src="forms/HIPPA1.pdf"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Download PDF</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <!-- Hippa 2 Modal -->
+                <div class="modal fade" id="hippa2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Hippa Privacy Form 2</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <iframe class="iframe-forms" src="forms/HIPPA2.pdf"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Download PDF</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <!-- Medical History Modal -->
+                <div class="modal fade" id="medHistModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Medical History Form</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <iframe class="iframe-forms" src="forms/medicalhistory.pdf"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Download PDF</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <!-- Surgery Modal -->
+                <div class="modal fade" id="surgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Surgical Form</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <iframe class="iframe-forms" src="forms/surgical.pdf"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Download PDF</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="footer-adjust"></div> -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">"I can do everything through him who gives me strength."</p>
+            <legend style="margin-bottom:10px"></legend>
+            <p>- Philippians 4:3</p>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="customJS/custom.js" type="text/javascript"></script>
+    <script type="text/javascript" src="vegas/jquery.vegas.js"></script>
+</body>
+</html>
