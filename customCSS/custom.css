@@ -48,9 +48,9 @@
 .list-group-item, .panel-body{
 	color:#6E7574;
 }
-body.modal-open {
+/*body.modal-open {
 	overflow: visible !important;
-}
+}*/
 .modal-body {
 	height: 80%;
 }
@@ -58,7 +58,12 @@ body.modal-open {
 	width: 100%;
 	height: 100%;
 }
-
+.dropdown:hover{
+	cursor: pointer;
+}
+.dropdown-menu > li:hover{
+	cursor: pointer;
+}
 
 /*Generic CSS*/
 .page-welcome {
@@ -416,4 +421,212 @@ body.modal-open {
 }
 .contact-hours-hours{
 	float:right;
+}
+
+/*photo_gallery.php*/
+.gallery-carousel-ind li{
+	background-color:black;
+}
+.section-gallery-main{
+	width:100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+}
+.section-gallery-main-heading{
+
+}
+.section-gallery-sort-controls{
+	padding-bottom:15px;
+	padding-top: 5px;
+}
+#Container > .row > .mix > div {
+	max-height: 15%;
+	background-size: cover;
+	height: 15%;
+	cursor: pointer;
+}
+#Container > .row > .mix {
+	padding-bottom: 15px;
+	display: none;
+}
+#Container > .row > .mix:after {
+	content: attr(data-myorder);
+	display: inline-block;
+}
+#Container > .row > .mix:before {
+	content: '';
+  display: inline-block;
+}
+#container .mix,
+#container .gap{
+  display: inline-block;
+  width: 49%;
+}
+.filter{
+	margin-bottom:1%;
+}
+/*@media (min-width:1200px){
+	#container .mix,
+	#container .gap{
+	  display: inline-block;
+	  width: 23%;
+	}
+}*/
+#displayDiv{
+	background-size:contain;
+	background-repeat: no-repeat;
+	width:100%;
+	background-position: center;
+}
+.office1{
+	background-image: url("../images/gallery/office_1.jpg");
+}
+.office2{
+	background-image: url("../images/gallery/office_2.jpg");
+}
+.office3{
+	background-image: url("../images/gallery/office_3.jpg");
+}
+.office4{
+	background-image: url("../images/gallery/office_4.jpg");
+}
+.office5{
+	background-image: url("../images/gallery/office_5.jpg");
+}
+.office6{
+	background-image: url("../images/gallery/office_6.jpg");
+}
+.office7{
+	background-image: url("../images/gallery/office_7.jpg");
+}
+.office8{
+	background-image: url("../images/gallery/office_8.jpg");
+}
+.office9{
+	background-image: url("../images/gallery/office_9.jpg");
+}
+
+.land1{
+	background-image: url("../images/gallery/land1.jpg");
+}
+.land2{
+	background-image: url("../images/gallery/land2.jpg");
+}
+.land3{
+	background-image: url("../images/gallery/land3.jpg");
+}
+.land4{
+	background-image: url("../images/gallery/land4.jpg");
+}
+.land5{
+	background-image: url("../images/gallery/land5.jpg");
+}
+.land6{
+	background-image: url("../images/gallery/land6.jpg");
+}
+.land7{
+	background-image: url("../images/gallery/land7.jpg");
+}
+.land8{
+	background-image: url("../images/gallery/land8.jpg");
+}
+.land9{
+	background-image: url("../images/gallery/land9.jpg");
+}
+.land10{
+	background-image: url("../images/gallery/land10.jpg");
+}
+.land44{
+	background-image: url("../images/gallery/land44.jpg");
+}
+.land66{
+	background-image: url("../images/gallery/land66.jpg");
+}
+
+.gt1{
+	background-image: url("../images/gallery/gt_1.jpg");
+}
+.gt2{
+	background-image: url("../images/gallery/gt_2.jpg");
+}
+.gt3{
+	background-image: url("../images/gallery/gt_3.jpg");
+}
+.gt4{
+	background-image: url("../images/gallery/gt_4.jpg");
+}
+
+.pr1{
+	background-image: url("../images/gallery/pr_1.jpg");
+}
+.pr2{
+	background-image: url("../images/gallery/pr_2.jpg");
+}
+.pr3{
+	background-image: url("../images/gallery/pr_3.jpg");
+}
+.pr4{
+	background-image: url("../images/gallery/pr_4.jpg");
+}
+.pr5{
+	background-image: url("../images/gallery/pr_5.jpg");
+}
+.pr6{
+	background-image: url("../images/gallery/pr_6.jpg");
+}
+.pr7{
+	background-image: url("../images/gallery/pr_7.jpg");
+}
+.pr8{
+	background-image: url("../images/gallery/pr_8.jpg");
+}
+.pr9{
+	background-image: url("../images/gallery/pr_9.jpg");
+}
+.pr10{
+	background-image: url("../images/gallery/pr_10.jpg");
+}
+.pr11{
+	background-image: url("../images/gallery/pr_11.jpg");
+}
+.pr13{
+	background-image: url("../images/gallery/pr_13.jpg");
+}
+.pr14{
+	background-image: url("../images/gallery/pr_14.jpg");
+}
+
+/*our_staff.php*/
+.section-staff-main{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	width: 100%;
+}
+.section-staff-main .glypyhicon{
+	text-align: center;
+	width: 100%;
+}
+.section-staff-main h3{
+	color:#c5c5c5;
+	text-align: center;
+}
+.section-staff-main h2{
+	text-transform: uppercase;
+}
+.staff-hygenists-heading{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+.img-container{
+	border-radius:50%;
+	background-color: rgb(193, 65, 65);
+}
+.img-staff-prof{
+	border-radius:50%;
+	width:100%;
+}
+.img-staff-prof:hover{
+	opacity:0.7;
 }

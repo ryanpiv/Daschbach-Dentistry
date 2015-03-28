@@ -40,15 +40,15 @@
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">New Patient Forms
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa1Modal">Hippa Form One</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa2Modal">Hippa Form Two</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#medHistModal">Medical History Form</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#surgModal">Surgical Form</a></li>
+                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa1Modal">Hippa Form One</a></li>
+                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa2Modal">Hippa Form Two</a></li>
+                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#medHistModal">Medical History Form</a></li>
+                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#surgModal">Surgical Form</a></li>
                         </ul>
                     </a>
                 </li>
-                <li><a href="#">Photo Gallery</a></li>
-                <li><a href="#">Our Staff</a></li>
+                <li><a href="photo_gallery.php">Photo Gallery</a></li>
+                <li><a href="our_staff.php">Our Staff</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         </div><!--/.nav-collapse -->
@@ -67,7 +67,7 @@
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <iframe class="iframe-forms" src="forms/HIPPA1.pdf"></iframe>
+                                    <embed class="iframe-forms" src="forms/HIPPA1.pdf"></embed>
                                 </div>
                             </div>
 
@@ -95,7 +95,7 @@
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <iframe class="iframe-forms" src="forms/HIPPA2.pdf"></iframe>
+                                    <embed class="iframe-forms" src="forms/HIPPA2.pdf"></embed>
                                 </div>
                             </div>
 
@@ -123,7 +123,7 @@
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <iframe class="iframe-forms" src="forms/medicalhistory.pdf"></iframe>
+                                    <embed class="iframe-forms" src="forms/medicalhistory.pdf"></embed>
                                 </div>
                             </div>
 
@@ -151,7 +151,7 @@
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <iframe class="iframe-forms" src="forms/surgical.pdf"></iframe>
+                                    <embed class="iframe-forms" src="forms/surgical.pdf"></embed>
                                 </div>
                             </div>
 

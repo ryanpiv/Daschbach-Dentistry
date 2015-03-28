@@ -12,5 +12,25 @@
 });*/
 
 $(document).ready(function() {
-	$('.dropdown-toggle').dropdown();
+  $('.dropdown-toggle').dropdown();
+});
+
+
+//debugger;
+var classData;
+var height = window.innerHeight;
+height = height * .85;
+
+$(window).resize(function() {
+  //height = screen.height;
+  height = window.innerHeight;
+  height = height * .85;
+  //$("#displayDiv").css("height", height);
+  $(".modal-content").css("height", height);
+});
+
+$(".formDD").click(function() {
+  //debugger;
+  //$("#displayDiv").css("height", height);
+  $(".modal-content").css("height", height);
 });

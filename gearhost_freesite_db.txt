@@ -1,0 +1,3 @@
+Database name - daschbach
+Admin name - ryanadmin
+password - Ryanpiv6!
