@@ -21,7 +21,7 @@
             </div>
             <div class="row">
                 <div class="section-doctors-main-header col-lg-4 col-lg-offset-2">
-                    <h1><a href="#section-bob-about">Robert L. Dashcbach D.D.S.</a></h1>
+                    <h1><a href="#section-bob-about">Robert L. Daschbach D.D.S.</a></h1>
                 </div>
                 <div class="section-doctors-main-header col-lg-4">
                     <h1><a href="#section-maq-about">Maq A. Serang D.M.D.</a></h1>
