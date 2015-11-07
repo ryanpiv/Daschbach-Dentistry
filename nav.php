@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.php" class="navbar-brand">R.L. Dashbach & Associates</a>
+                <a href="index.php" class="navbar-brand">R.L. Daschbach & Associates</a>
             </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">

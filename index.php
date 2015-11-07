@@ -9,7 +9,7 @@
     <section class="welcome-section">
         <div class="container">
             <div class="center">
-                <h1 class="welcome-text" style="margin-top:inherit">R.L. Dashbach</h1><h3> & </h3><h1 class="welcome-text">Associates</h1>
+                <h1 class="welcome-text" style="margin-top:inherit">R.L. Daschbach</h1><h3> & </h3><h1 class="welcome-text">Associates</h1>
                 <h1 class="welcome-text subtitle">Family Dentistry</h1>
                 <div style="margin:10px">
                     <p>Our family of caring doctors & staff concentrate on your family's needs.</p>
