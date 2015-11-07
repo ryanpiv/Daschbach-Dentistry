@@ -68,8 +68,8 @@
                         <div class="container">
                             <div class="center">
                                 <div class="carousel-caption">
-                                    <h1>See Our Beautiful Office</h1>
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                                    <h1>Our Office</h1>
+                                    <p><a class="btn btn-lg btn-primary" href="photo_gallery.php" role="button">Browse gallery</a></p>
                                 </div>
                             </div>
                         </div>

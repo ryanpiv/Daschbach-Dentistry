@@ -1,0 +1,695 @@
+/*fonts*/
+@font-face{
+	font-family: "basic_title_font";
+	src: url("../fonts/basictitlefont.ttf") format("truetype");
+}
+@font-face{
+	font-family: "sanford";
+	src: url("../fonts/Sanford-0103_demo.ttf") format("truetype");
+}
+@font-face{
+	font-family: 'Montserrat', sans-serif;
+	src: url("http://fonts.googleapis.com/css?family=Montserrat");
+}
+
+/*bootstrap overrides*/
+.navbar-nav {
+	border: none;
+	text-transform: uppercase;
+	font-size:12px;
+}
+.navbar{
+	background-color:#fff;
+}
+.navbar-brand {
+	text-transform: uppercase;
+}
+.navbar-toggle{
+	background-color:#eee !important;
+}
+.btn {
+	text-transform: uppercase;
+	font-size:12px;
+}
+.icon-bar{
+	background-color: #888888 !important;
+}
+.carousel-caption{
+	text-align: center;
+	position: initial;
+}
+.item{
+	height:400px;
+}
+.dropdown-menu > li > a {
+	text-transform: none;
+	color:#337ab7;
+}
+.list-group-item, .panel-body{
+	color:#6E7574;
+}
+/*body.modal-open {
+	overflow: visible !important;
+}*/
+.modal-body {
+	height: 80%;
+}
+.iframe-forms{
+	width: 100%;
+	height: 100%;
+}
+.dropdown:hover{
+	cursor: pointer;
+}
+.dropdown-menu > li:hover{
+	cursor: pointer;
+}
+
+/*Generic CSS*/
+.page-welcome {
+	height: 100%;
+}
+.center {
+    bottom: 0; left: 0; top: 0; right: 0;
+    margin: auto;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+	width:100%;
+	text-align: center;
+	/*margin:0 auto;
+	//the left and right margins are increased until it becomes centered along
+	//the y-axix of the viewport
+	*/
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 80px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.footer-text {
+	padding-top:1%;
+	font-family: Arial;
+	font-size:14px;
+	font-style: italic;
+}
+.footer-adjust{
+	background-color: #f5f5f5;
+	height:10%;
+	width:100%;
+}
+.font-heavy{
+	font-weight: 600;
+}
+.font-very-heavy{
+	font-weight: 800;
+}
+.img-fill-column{
+	width:100%;
+}
+.img-inline{
+	display: inline;
+}
+.float-right{
+	float: right;
+}
+.float-left{
+	float:left;
+}
+.p-inline{
+	display: inline;
+}
+.h-inline{
+	display: inline;
+}
+.black-shadow{
+	text-shadow: 2px 2px #6E7574;
+}
+.container-fill-width{
+	width: 90%;
+}
+.container-fill-height {
+	height:100%;
+}
+.lihover:hover{
+	background-color:#f5f5f5;
+}
+
+
+/*--index.php*/
+.welcome-section{
+	background-image:url("../images/office_overlay.jpg");
+	background-size: cover;
+	width: 100%;
+    height: 100%;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.welcome-text{
+	font-family: "basic_title_font", Arial;
+	font-size:60px;
+}
+.subtitle{
+	font-size:20px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.welcome-carousel{
+	position: relative;
+	padding-top:3%;
+	padding-bottom: 3%;
+	background-color: #eeeeee;
+	background-size:cover;
+}
+.item-office{
+	background-image:url("../images/land5.jpg");
+	background-size:cover;
+}
+.statement-section{
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+.statement-container{
+	text-align: center;
+
+}
+.statement-heading{
+	font-family: "sanford",georgia,serif;
+	font-size:45px;
+}
+.statement-details{
+	font-family: "sanford",georgia,serif;
+	font-size:25px;
+}
+
+/*services.php*/
+.section-services{
+	background-color: #26544F;
+	width: 100%;
+	height:auto;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding-bottom:10%;
+}
+.section-services-heading1{
+	text-transform: uppercase;
+	color:white;
+}
+.section-services-heading1{
+	text-transform: uppercase;
+	color:white;
+}
+.section-services-heading3{
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.section-services-main-heading{
+	padding-top:5%;
+	text-transform: uppercase;
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+.btn-collapse-all{
+	float: right;
+}
+.btn-expand-all{
+	float: left;
+}
+.btn-all-container{
+	margin-top:1%;
+	margin-bottom: 1%
+}
+
+/*meet_the_doctors.php*/
+.section-doctors-main{
+	background-color: #fff;
+	width:100%;
+	height:100%;
+	padding-top:2%;
+}
+.section-doctors-main-header{
+	text-align: center;
+	color:#6E7574;
+}
+.section-doctors-main-header > h2{
+	text-transform: uppercase;
+}
+.section-doctors-main-img{
+	width:100%;
+}
+.section-doctors-subtitle{
+	text-transform: uppercase;
+	text-align: center;
+}
+.section-bob-about{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-color: #9BBFBB;
+	width: 100%;
+}
+.section-bob-about-header1{
+	color:white;
+	text-transform: uppercase;
+	padding-bottom:2%;
+}
+.section-bob-about-header2{
+	text-transform: uppercase;
+	color: white;
+}
+.section-marie-about{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	width: 100%;
+}
+.section-marie-about-header1{
+	text-transform: uppercase;
+	color:#9BBFBB;
+	padding-bottom:2%;
+}
+.section-marie-about-header2{
+	text-transform: uppercase;
+	color:#9BBFBB;
+}
+.img-marie{
+	padding: 1%;
+}
+.img-bob{
+	padding: 1%;
+	display: inline;
+}
+.list-scott-accomplishments{
+	margin-bottom: 0;
+}
+.scott-panel-body{
+	background-color: #d9edf7;
+}
+.paul-panel-body{
+	background-color: #faebcc;
+}
+.paul-panel-info{
+	width:70%;
+	display: inline-block;
+}
+.section-sarah-about{
+	padding-top: 3%;
+	padding-bottom: 5%;
+	width: 100%;
+}
+
+/*mission_statement.php*/
+.section-statement-main{
+	width:100%;
+	height:100%;
+	padding-top:2%;
+}
+.statement-main-heading{
+	text-transform: uppercase;
+	text-align: center;
+	color: #57C31F;
+	/*color: #B9DAA9;*/
+}
+.statement-block{
+	background-color: #337ab7;
+	height:250px;
+}
+.statement-space{
+	padding-top:2%;
+}
+
+/*contact.php*/
+.section-contact-main{
+	width:100%;
+	height:50%;
+	background-image: url("../images/office1.png");
+	background-size:cover;
+}
+.section-contact-main-header1 {
+	text-align: center;
+	color: white;
+	position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+.contact-globe{
+	margin-bottom:3%;
+}
+.section-contact-information{
+	width: 100%;
+	padding: 3% 0 3%;
+	background-color: rgba(7,44,57,0.8);
+}
+/*@media (min-width:1200px){
+	.contact-info-heading:after{
+		background: url(../images/bg_off.png) repeat;
+		content: "";
+		height: 5px;
+		margin-left: 10px;
+		position: absolute;
+		top: 12px;
+		width: 99%;
+		top: 50%;
+	}
+}
+@media (max-width:1199px){
+	.contact-info-heading:after{
+		background: url(../images/bg_off.png) repeat;
+		content: "";
+		height: 5px;
+		margin-left: 10px;
+		position: absolute;
+		top: 12px;
+		width: 99%;
+		top: 40%;
+	}
+}*/
+
+.contact-info-heading,.contact-address{
+	color: rgb(230, 230, 230);
+}
+.contact-address{
+	line-height: 25px;
+}
+.contact-col{
+	overflow: hidden;
+}
+#googleMap iframe {
+	   width: 100%;
+	}
+#googleMap {
+	   height: 350px;
+	}
+#googleMap img { max-width: none;
+}
+.contact-maps{
+	padding:3% 0 3%;
+}
+.contact-map-marker{
+	padding:1% 0 2%;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+}
+.contact-map-heading{
+	text-align: center;
+	text-transform: uppercase;
+	color: #c5c5c5;
+}
+.contact-call{
+	padding: 3% 0;
+	text-align: center;
+}
+.contact-call-heading-phone{
+	text-transform:uppercase;
+	color:#c5c5c5;
+	font-size:20px;
+}
+.contact-hours-ul{
+
+}
+.contact-hours-li{
+	list-style-type: none;
+}
+.contact-hours-day{
+	float:left;
+}
+.contact-hours-hours{
+	float:right;
+}
+
+/*photo_gallery.php*/
+.gallery-carousel-ind li{
+	background-color:black;
+}
+.section-gallery-main{
+	width:100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+}
+.section-gallery-main-heading{
+
+}
+.section-gallery-sort-controls{
+	padding-bottom:15px;
+	padding-top: 5px;
+}
+#Container > .row > .mix > div {
+	max-height: 15%;
+	background-size: cover;
+	height: 15%;
+	cursor: pointer;
+}
+#Container > .row > .mix {
+	padding-bottom: 15px;
+	display: none;
+}
+#Container > .row > .mix:after {
+	content: attr(data-myorder);
+	display: inline-block;
+}
+#Container > .row > .mix:before {
+	content: '';
+  display: inline-block;
+}
+#container .mix,
+#container .gap{
+  display: inline-block;
+  width: 49%;
+}
+.filter{
+	margin-bottom:1%;
+}
+/*@media (min-width:1200px){
+	#container .mix,
+	#container .gap{
+	  display: inline-block;
+	  width: 23%;
+	}
+}*/
+#displayDiv{
+	background-size:contain;
+	background-repeat: no-repeat;
+	width:100%;
+	background-position: center;
+}
+.office1{
+	background-image: url("../images/gallery/office_1.jpg");
+}
+.office2{
+	background-image: url("../images/gallery/office_2.jpg");
+}
+.office3{
+	background-image: url("../images/gallery/office_3.jpg");
+}
+.office4{
+	background-image: url("../images/gallery/office_4.jpg");
+}
+.office5{
+	background-image: url("../images/gallery/office_5.jpg");
+}
+.office6{
+	background-image: url("../images/gallery/office_6.jpg");
+}
+.office7{
+	background-image: url("../images/gallery/office_7.jpg");
+}
+.office8{
+	background-image: url("../images/gallery/office_8.jpg");
+}
+.office9{
+	background-image: url("../images/gallery/office_9.jpg");
+}
+
+.land1{
+	background-image: url("../images/gallery/land1.jpg");
+}
+.land2{
+	background-image: url("../images/gallery/land2.jpg");
+}
+.land3{
+	background-image: url("../images/gallery/land3.jpg");
+}
+.land4{
+	background-image: url("../images/gallery/land4.jpg");
+}
+.land5{
+	background-image: url("../images/gallery/land5.jpg");
+}
+.land6{
+	background-image: url("../images/gallery/land6.jpg");
+}
+.land7{
+	background-image: url("../images/gallery/land7.jpg");
+}
+.land8{
+	background-image: url("../images/gallery/land8.jpg");
+}
+.land9{
+	background-image: url("../images/gallery/land9.jpg");
+}
+.land10{
+	background-image: url("../images/gallery/land10.jpg");
+}
+.land44{
+	background-image: url("../images/gallery/land44.jpg");
+}
+.land66{
+	background-image: url("../images/gallery/land66.jpg");
+}
+
+.gt1{
+	background-image: url("../images/gallery/gt_1.jpg");
+}
+.gt2{
+	background-image: url("../images/gallery/gt_2.jpg");
+}
+.gt3{
+	background-image: url("../images/gallery/gt_3.jpg");
+}
+.gt4{
+	background-image: url("../images/gallery/gt_4.jpg");
+}
+
+.pr1{
+	background-image: url("../images/gallery/pr_1.jpg");
+}
+.pr2{
+	background-image: url("../images/gallery/pr_2.jpg");
+}
+.pr3{
+	background-image: url("../images/gallery/pr_3.jpg");
+}
+.pr4{
+	background-image: url("../images/gallery/pr_4.jpg");
+}
+.pr5{
+	background-image: url("../images/gallery/pr_5.jpg");
+}
+.pr6{
+	background-image: url("../images/gallery/pr_6.jpg");
+}
+.pr7{
+	background-image: url("../images/gallery/pr_7.jpg");
+}
+.pr8{
+	background-image: url("../images/gallery/pr_8.jpg");
+}
+.pr9{
+	background-image: url("../images/gallery/pr_9.jpg");
+}
+.pr10{
+	background-image: url("../images/gallery/pr_10.jpg");
+}
+.pr11{
+	background-image: url("../images/gallery/pr_11.jpg");
+}
+.pr13{
+	background-image: url("../images/gallery/pr_13.jpg");
+}
+.pr14{
+	background-image: url("../images/gallery/pr_14.jpg");
+}
+
+/*our_staff.php*/
+.section-staff-main{
+	padding-top: 3%;
+	padding-bottom: 1%;
+	text-align: center;
+	width: 100%;
+}
+.section-staff-main .glypyhicon{
+	text-align: center;
+	width: 100%;
+}
+.section-staff-main h3{
+	color:#c5c5c5;
+	text-align: center;
+}
+.section-staff-main h2{
+	text-transform: uppercase;
+}
+.staff-hygenists-heading{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.section-staff-photos{
+	padding-bottom: 2%;
+	text-align: center;
+	width: 100%;
+}
+.img-container{
+	border-radius:50%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height:200px;
+	width:100%;
+}
+.img-container:hover{
+	opacity:0.7;
+	cursor: pointer;
+}
+.img-mbrobst{
+	background-image: url("../images/staff/mbrobst.jpg");
+	background-position: -30px;
+}
+.img-terb{
+	background-image: url("../images/staff/terb.jpg");
+	background-position: -10px;
+}
+.img-mgehman{
+	background-image: url("../images/staff/mgehman.jpg");
+	background-position-y: -30px;
+}
+.img-nguerrieri{
+	background-image: url("../images/staff/nguerrieri.jpg");
+	background-position: -40px;
+}
+.img-clage{
+	background-image: url("../images/staff/clage.jpg");
+	background-position: -40px;
+}
+.img-gmills{
+	background-image: url("../images/staff/gmills.jpg");
+}
+.img-jmurray{
+	background-image: url("../images/staff/jmurray.jpg");
+	background-position: -40px;
+}
+.img-gsordini{
+	background-image: url("../images/staff/gsordini.jpg");
+}
+.img-lyothers{
+	background-image: url("../images/staff/lyothers.jpg");
+	background-position: -45;
+}
+.img-szansitis{
+	background-image: url("../images/staff/szansitis.jpg");
+	background-position: -40px;
+}
+
+.section-staff-info{
+	text-align: center;
+	width: 100%;
+	display:none;
+}
+.info-main-heading{
+	display:none;
+}
+#info-img{
+	width:200px;
+	height:170px;
+	border-radius:50%;
+	display:none;
+	margin: 0 auto;
+}
+#info-about{
+	padding-top:2%;
+}
