@@ -28,15 +28,6 @@
                     </a>
                 </li>
                 <li>
-                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Meet the Doctors
-                        <span class="caret"></span>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="meet_the_doctors.php">Meet the Doctors</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="mission_statement.php">Mission Statement</a></li>
-                        </ul>
-                    </a>
-                </li>
-                <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">New Patient Forms
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
@@ -48,8 +39,25 @@
                     </a>
                 </li>
                 <li><a href="photo_gallery.php">Photo Gallery</a></li>
-                <li><a href="our_staff.php">Our Staff</a></li>
+                <li>
+                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Our Staff
+                        <span class="caret"></span>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="meet_the_doctors.php">Meet the Doctors</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="our_staff.php">Our Staff</a></li>
+                        </ul>
+                    </a>
+                </li>
                 <li><a href="contact.php">Contact</a></li>
+                <li>
+                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Careers
+                        <span class="caret"></span>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Careers</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="mission_statement.php">Mission Statement</a></li>
+                        </ul>
+                    </a>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
