@@ -1,143 +1,64 @@
 <html>
 <head>
     <?php include('settings.php'); ?>
+    <link href="customCSS/photo_gallery.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <?php include('nav.php'); ?>
 
   <section class="section-gallery-main">
-    <div id="Container" class="container container-fill-width">
+    <div class="container container-fill-width">
       <h1 class="section-gallery-main-heading">Photo Gallery</h1>
       <div class="section-gallery-sort-controls">
-        <button class="filter btn btn-primary" data-filter="all">View All</button>
-        <button class="filter btn btn-primary" data-filter=".category-1">Inside</button>
-        <button class="filter btn btn-primary" data-filter=".category-2">Outside</button>
-        <button class="filter btn btn-primary" data-filter=".category-3">Patient Rooms</button>
-        <button class="filter btn btn-primary" data-filter=".category-4">Miscellaneous</button>
-      </div>
+      	<button class="filter btn btn-primary" data-filter="all">View All</button>
 
-      <div class="row">
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office1"></div>
-        </div>
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office2"></div>
-        </div>
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office3"></div>
-        </div>
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office4"></div>
-        </div>
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office5"></div>
-        </div>
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office6"></div>
-        </div>
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office7"></div>
-        </div>
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office8"></div>
-        </div>
-        <div class=" mix category-1 filter" data-my-order="1">
-          <div class="office9"></div>
-        </div>
+  <?php
+  	ini_set('display_errors', 'On');
 
-        <div class=" mix category-4 filter" data-my-order="1">
-          <div class="gt1"></div>
-        </div>
-        <div class=" mix category-4 filter" data-my-order="1">
-          <div class="gt2"></div>
-        </div>
-        <div class=" mix category-4 filter" data-my-order="1">
-          <div class="gt3"></div>
-        </div>
-        <div class=" mix category-4 filter" data-my-order="1">
-          <div class="gt4"></div>
-        </div>
+	$count = 1;
+	$dirArray = array();
+	$iterator = new RecursiveIteratorIterator(
+                new RecursiveDirectoryIterator("images/gallery/"), 
+            RecursiveIteratorIterator::SELF_FIRST);
 
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land1"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land2"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land3"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land4"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land5"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land6"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land7"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land8"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land9"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land10"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land44"></div>
-        </div>
-        <div class=" mix category-2 filter" data-my-order="1">
-          <div class="land66"></div>
-        </div>
+	foreach($iterator as $file) {
+	    if($file->isDir()) {
+	    	if($file->getFilename() != "." && $file->getFilename() != ".."){
+	    		echo "<button class='filter btn btn-primary' data-filter='.category-" . "$count'" . '>' . $file->getFilename(), PHP_EOL . "</button>";
+	    		//array_push($dirArray, $file->getFilename());
+	    		$dirArray[$count] = $file->getFilename();
+	    		$count++;
+	    	}
+	    }
+	}
+	echo "<!-- sort controls div end --> </div></div><div class='container container-fill-width-100' id='Container'>";
+	/*
+	echo "<br/>";
+	echo "array contents: " . implode(", ", $dirArray);
+	echo "<br/>";
+	echo "array size: " . count($dirArray);
+	echo "<br/>";
+	*/
 
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr1"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr2"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr3"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr4"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr5"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr6"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr7"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr8"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr9"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr10"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr11"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr13"></div>
-        </div>
-        <div class=" mix category-3 filter" data-my-order="1">
-          <div class="pr14"></div>
-        </div>
-      </div>
+	for($i = 1; $i <= count($dirArray); $i++){
+		//echo($dirArray[$i]);
+		$dir = "images/gallery/" . "$dirArray[$i]";
+		//echo $dir . "<br />";
 
-    </div>
+		$di = new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS);
+		foreach (new RecursiveIteratorIterator($di) as $filename => $file) {
+			//echo $di . '<br/>';
+			if($filename != '.' && $filename != '..' && $filename){
+				//echo $filename . '<br/>'; //. ' - ' . $file->getSize() . ' bytes <br/>';
+				echo '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-image: url(' . $dir . '/' . $di . ')"></div></div>';
+			}
+		}
+	}
+	
+	
+  ?>
+  </div>
   </section>
 
   <div class="modal fade" tabindex="-1" role="dialog"   aria-labelledby="myLargeModalLabel" id="myModal" aria-hidden="true">
@@ -149,34 +70,38 @@
   </div>
 
   <?php include('footer.php'); ?>
+  
+
   <script>
-    $(function(){
-      $('#Container').mixItUp();
+    //debugger;
+
+    $(window).resize(function(){
+
+    });
+
+    $(".mix").click(function(){
+      $("#Container").children(".mix").removeClass("clicked");
+      $(this).addClass("clicked");
+
+      var bgimage = $(this).children("div").css('background-image');
+      $("#displayDiv").css('background-image', bgimage);
+
+      bgimage = bgimage.replace(/url\((['"])?(.*?)\1\)/gi, '$2')
+                        .split(',')[0];
+      var image = new Image();
+      image.src = bgimage;
+      var imgWidth = image.width;
+      var imgHeight = image.height;
+      $("#displayDiv").height(imgHeight);
+      $("#displayDiv").width(imgWidth);
+      $("#myModal").modal('show');
     });
   </script>
 
   <script>
-    //debugger;
-    var classData;
-    var height = window.innerHeight;
-    height = height * .85;
-
-    $(window).resize(function(){
-      //height = screen.height;
-      height = window.innerHeight;
-      height = height * .85;
-      $("#displayDiv").css("height", height);
-      $(".modal-content").css("height", height);
-    });
-
-    $(".mix").click(function(){
-      //debugger;
-      classClicked = $(this).children("div").attr("class");
-      $("#displayDiv").attr("class", classClicked);
-      $("#displayDiv").css("height", height);
-      $(".modal-content").css("height", height);
-      $("#myModal").modal('show');
-    });
+	  $(document).ready(function(){
+	  	$('#Container').mixItUp();
+	  });
   </script>
 </body>
 </html>
