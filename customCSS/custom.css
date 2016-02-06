@@ -576,7 +576,7 @@
 	transition: background-color 0.2s;
 }
 .arrow{
-	font-size: 26px;
+  font-size: 26px;
   display: none;
   width: 100%;
   margin: 0 auto;

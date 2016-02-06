@@ -12,9 +12,7 @@
 	padding-bottom:15px;
 	padding-top: 5px;
 }
-#Container > .row > .mix > div {
-	background-size: cover;
-	height: 15%;
+#Container > .mix > div {
 	cursor: pointer;
 }
 #Container .mix{
@@ -30,21 +28,44 @@
     padding-top: 45%;
   }
 }
-#displayDiv{
-	background-repeat: no-repeat;
-	margin:0 auto;
-}
 .modal-content{
 	background-color:transparent;
+	text-align: center;
+	border:0 !important;
+	box-shadow: none !important;
+	-webkit-box-shadow:none !important;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin:0 auto;
+	display: inline-block;
+
+	z-index:1041 !important;
 }
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+.centered, .modal-dialog {
+	position: fixed !important;
+	top: 50% !important;
+	left: 50% !important;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%) !important;
+
+}
+.modal-dialog{
+	margin: 0 !important;
 }
 .container-fill-width-100{
 	width:100% !important;
 	padding:0 !important;
+}
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+	font-size:60px !important;
+	color:white !important;
+	cursor: pointer;
+	top: 50%;
+}
+.glyphicon-chevron-left {
+	float:left;
+}
+.glyphicon-chevron-right {
+	float:right;
 }
