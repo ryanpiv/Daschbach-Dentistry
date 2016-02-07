@@ -4,6 +4,8 @@
 
     <link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.min.css">
     <script src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+    <link href="customCSS/our_staff.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

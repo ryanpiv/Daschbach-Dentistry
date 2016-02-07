@@ -1,0 +1,40 @@
+/*services.php*/
+.section-services{
+	background-color: #26544F;
+	width: 100%;
+	height:auto;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding-bottom:10%;
+}
+.section-services-heading1{
+	text-transform: uppercase;
+	color:white;
+}
+.section-services-heading1{
+	text-transform: uppercase;
+	color:white;
+}
+.section-services-heading3{
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.section-services-main-heading{
+	padding-top:5%;
+	text-transform: uppercase;
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+.btn-collapse-all{
+	float: right;
+}
+.btn-expand-all{
+	float: left;
+}
+.btn-all-container{
+	margin-top:1%;
+	margin-bottom: 1%
+}

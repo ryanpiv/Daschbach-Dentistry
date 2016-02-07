@@ -1,0 +1,139 @@
+.section-staff-main{
+	padding-top: 3%;
+	padding-bottom: 1%;
+	text-align: center;
+	width: 100%;
+}
+.section-staff-main .glypyhicon{
+	text-align: center;
+	width: 100%;
+}
+.section-staff-main h3{
+	color:#c5c5c5;
+	text-align: center;
+}
+.section-staff-main h2{
+	text-transform: uppercase;
+}
+.staff-heading{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.section-staff-photos{
+	padding-bottom: 2%;
+	text-align: center;
+	width: 100%;
+}
+.img-container{
+	border-radius:50%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height:200px;
+	width:100%;
+}
+.img-container:hover{
+	opacity:0.7;
+	cursor: pointer;
+}
+.section-staff-info{
+	text-align: center;
+	width: 100%;
+	display:none;
+}
+.info-main-heading{
+	display:none;
+}
+#info-img{
+	width:200px;
+	height:170px;
+	border-radius:50%;
+	display:none;
+	margin: 0 auto;
+}
+#info-about{
+	padding-top:2%;
+}
+
+/*Dental Hygenists*/
+.img-mbrobst{
+	background-image: url("../images/staff/mbrobst.jpg");
+	background-position: -30px;
+}
+.img-terb{
+	background-image: url("../images/staff/terb.jpg");
+	background-position: -10px;
+}
+.img-mgehman{
+	background-image: url("../images/staff/mgehman.jpg");
+	background-position-y: -30px;
+}
+.img-nguerrieri{
+	background-image: url("../images/staff/nguerrieri.jpg");
+	background-position: -40px;
+}
+.img-clage{
+	background-image: url("../images/staff/clage.jpg");
+	background-position: -40px;
+}
+.img-gmills{
+	background-image: url("../images/staff/gmills.jpg");
+}
+.img-jmurray{
+	background-image: url("../images/staff/jmurray.jpg");
+	background-position: -40px;
+}
+.img-gsordini{
+	background-image: url("../images/staff/gsordini.jpg");
+}
+.img-lyothers{
+	background-image: url("../images/staff/lyothers.jpg");
+	background-position: -45;
+}
+.img-szansitis{
+	background-image: url("../images/staff/szansitis.jpg");
+	background-position: -40px;
+}
+
+/*Dental Assistants*/
+.img-jborisow{
+	background-image: url("../images/staff/jborisow.jpg");
+}
+.img-adelaney{
+	background-image: url("../images/staff/adelaney.jpg");
+}
+.img-memrick{
+	background-image: url("../images/staff/memrick.jpg");
+}
+.img-nnice{
+	background-image: url("../images/staff/nnice.jpg");
+}
+
+/*Office*/
+.img-jblattner{
+	background-image: url("../images/staff/jblattner.jpg");
+}
+.img-dblattner{
+	background-image: url("../images/staff/dblattner.jpg");
+}
+.img-ddaschbach{
+	background-image: url("../images/staff/ddaschbach.jpg");
+}
+.img-vfontaine{
+	background-image: url("../images/staff/vfontaine.jpg");
+}
+.img-lleyland{
+	background-image: url("../images/staff/lleyland.jpg");
+}
+.img-mmowry{
+	background-image: url("../images/staff/mmowry.jpg");
+}
+.img-jpoehlmann{
+	background-image: url("../images/staff/jpoehlmann.jpg");
+}
+.img-kpultorak{
+	background-image: url("../images/staff/kpultorak.jpg");
+}
+.img-bscheetz{
+	background-image: url("../images/staff/bscheetz.jpg");
+}

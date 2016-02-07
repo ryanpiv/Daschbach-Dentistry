@@ -1,5 +1,6 @@
 <html>
 <head>
+    <link href="customCSS/index.css" rel="stylesheet" type="text/css" />
     <?php include('settings.php'); ?>
 </head>
 

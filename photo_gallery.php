@@ -1,7 +1,7 @@
 <html>
 <head>
-    <?php include('settings.php'); ?>
     <link href="customCSS/photo_gallery.css" rel="stylesheet" type="text/css" />
+    <?php include('settings.php'); ?>
 </head>
 
 <body>

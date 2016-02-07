@@ -53,7 +53,7 @@
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Careers
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Careers</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="careers.php">Careers</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="mission_statement.php">Mission Statement</a></li>
                         </ul>
                     </a>
