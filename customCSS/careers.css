@@ -2,7 +2,6 @@
 	padding-top:5%;
 	background-color:#6F5499;
 	color:#CDBFE3;
-	height:35%;
 	text-align: center;
 }
 .section-careers-main-header{
@@ -34,4 +33,41 @@
 .job-detail{
 	margin-left:3px;
 	margin-right:15px;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.section-careers-main{
+		height:65%;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.section-careers-main{
+		height:65%;
+	}
+}
+
+/* Small Devices, Tablets -sm*/
+@media only screen and (min-width : 768px) {
+	.section-careers-main{
+		height:50%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.section-careers-main{
+		height:35%;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.section-careers-main{
+		height:35%;
+	}
 }
