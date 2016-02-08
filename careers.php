@@ -15,7 +15,7 @@
     				Be a part of our team.
     			</h1>
     			<p>
-    				Our open and available positions are listed here.
+    				Browse our open and available positions.
     			</p>
     			<p>
     				Don't see what you're looking for? We're always open to anyone who believes they'll be a great fit. Send us an email with your resume and reason for sending to <a href="#">careers@daschbachdenstistry.com</a>
@@ -29,51 +29,67 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<h2 class="h2-careers-positions">Open Positions</h2>
+                    <small>Click the job titles to learn more about the positions listed below.</small>
+                    <legend></legend>
 					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-					<legend></legend>
 					<?php
 					$json = file_get_contents('admin_files/careers/careers.json');
 					$obj = json_decode($json);
-					echo "<div class='panel panel-default'>
-                            <div class='panel-heading' role='tab' id='headingOne'>
-                                <h2 class='panel-title'>
-                                    <a data-toggle='collapse' data-parent='#accordion' href='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>" . $obj->careers["0"]->title; 
-                    echo '</a></h2>';
+                    $careersCount = 0;
+                    while(isset($obj->careers[$careersCount])){
+    					echo "<div class='panel panel-default'>
+                                <div class='panel-heading' role='tab' id='heading" . $careersCount. "'>
+                                    <h2 class='panel-title'>
+                                        <a class='collapsed' data-toggle='collapse' data-parent='#accordion' href='#collapse" . $careersCount . "' aria-expanded='false' aria-controls='collapse" . $careersCount . "'>" . $obj->careers[$careersCount]->title; 
+                        echo '</a></h2>';
 
-                    if($obj->careers["0"]->type != "" || $obj->careers["0"]->experience || $obj->careers["0"]->location ){
-                    	echo '<p>';
-                    }
-                    if($obj->careers["0"]->type != ""){
-                    	echo '<span class="glyphicon glyphicon-hourglass"></span><span class="job-detail">' . $obj->careers["0"]->type . '</span>';
-                    }
-                    if($obj->careers["0"]->experience != ""){
-                    	echo '  ' . '<span class="glyphicon glyphicon-education"></span><span class="job-detail">' . $obj->careers["0"]->experience . '</span>';
-                    }
-                    if($obj->careers["0"]->location != ""){
-                    	echo '  ' .'<span class="glyphicon glyphicon-map-marker"></span><span class="job-detail">' . $obj->careers["0"]->location . '</span>';
-                    }
-                    if($obj->careers["0"]->type != "" || $obj->careers["0"]->experience || $obj->careers["0"]->location ){
-                    	echo '</p>';
-                    }
-                    
+                        if(isset($obj->careers[$careersCount]->type) || isset($obj->careers[$careersCount]->experience) || isset($obj->careers[$careersCount]->location) ){
+                            echo '<p>';
+                        }
+                        if(isset($obj->careers[$careersCount]->type)){
+                        	echo '<span class="glyphicon glyphicon-hourglass"></span><span class="job-detail">' . $obj->careers[$careersCount]->type . '</span>';
+                        }
+                        if(isset($obj->careers[$careersCount]->experience)){
+                        	echo '  ' . '<span class="glyphicon glyphicon-education"></span><span class="job-detail">' . $obj->careers[$careersCount]->experience . '</span>';
+                        }
+                        if(isset($obj->careers[$careersCount]->location)){
+                        	echo '  ' .'<span class="glyphicon glyphicon-map-marker"></span><span class="job-detail">' . $obj->careers[$careersCount]->location . '</span>';
+                        }
+                        if(isset($obj->careers[$careersCount]->type) || isset($obj->careers[$careersCount]->experience) || isset($obj->careers[$careersCount]->location) ){
+                        	echo '</p>';
+                        }
+                        
 
-                    echo "</div><div id='collapseOne' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='headingOne'>
-                    	<div class='panel-body'><h4>Summary</h4><p>" . $obj->careers["0"]->summary . '</p>';
+                        echo "</div><div id='collapse" . $careersCount . "' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading" . $careersCount . "'>
+                        	<div class='panel-body'>";
+                            if(isset($obj->careers[$careersCount]->summary)){
+                                echo "<h4>Summary</h4><p>" . $obj->careers[$careersCount]->summary . '</p>';
+                            }
 
-                    	if($obj->careers["0"]->requirements != ""){
-                    		echo '<h4>Requirements</h4><ul>';
-                    		echo $obj->careers["0"]->requirements;
-                    		echo '</ul>';
-                    	}
-                    	
-                    	if($obj->careers["0"]->responsibilities != ""){
-                    		echo '<h4>Responsibilities</h4><ul>';
-                    		echo $obj->careers["0"]->responsibilities;
-                    		echo '</ul>';
-                    	}
-                                	
-                    echo '</div></div></div>';
-                    //echo $obj->careers["0"]->subtitle;
+                        	if(isset($obj->careers[$careersCount]->requirements)){
+                        		echo '<h4>Requirements</h4><ul>';
+                                $reqCount = 1;
+                                while(isset($obj->careers[$careersCount]->requirements->$reqCount)){
+                                    echo '<li>' . $obj->careers[$careersCount]->requirements->$reqCount .'</li>';
+                                    $reqCount++;
+                                }
+                        		echo '</ul>';
+                        	}
+                        	
+                        	if(isset($obj->careers[$careersCount]->responsibilities)){
+                        		echo '<h4>Responsibilities</h4><ul>';
+                        		$respCount = 1;
+                                while(isset($obj->careers[$careersCount]->responsibilities->$respCount)){
+                                    echo '<li>' . $obj->careers[$careersCount]->responsibilities->$respCount . '</li>';
+                                    $respCount++;
+                                }
+                        		echo '</ul>';
+                        	}
+                        echo '<button style="float:right" class="btn btn-primary btn-lg">Apply</button>';
+                        echo '</div></div></div>';
+
+                        $careersCount++;
+                    }
 					?>
 				</div>
 			</div>
@@ -84,3 +100,5 @@
     <?php include('footer.php'); ?>
 </body>
 </html>
+
+<!-- https://wpjobmanager.com/add-ons/applications/ -->
