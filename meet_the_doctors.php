@@ -7,17 +7,22 @@
 <body>
     <?php include('nav.php'); ?>
 
-	<section class="section-doctors-main">
-        <div class="container">
+    <section class="section-doctors-main section-main">
+        <div class="container container-fill-width">
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-4 section-doctors-main-header">
-                    <div class="glyphicon glyphicon-user" aria-hidden="true"></div>
-                    <h2 class="font-heavy">Our Family</h2>
-                </div>
+                <div class="glyphicon glyphicon-user section-main-glyphicon" aria-hidden="true"></div><br />
+                <h1 class="section-main-header section-doctors-main-header">
+                    Your doctors.
+                </h1>
+                <p>Get to know the professionals taking care of your smile.</p>
             </div>
+        </div>
+    </section>
+
+	<section class="section-doctors">
+        <div class="container"> 
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <img class="img-fill-column" src="images/doctors_smaller_resize.jpg" />
+                <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 img-doctors-main">
                 </div>
             </div>
             <div class="row">
@@ -272,5 +277,18 @@
 
     <?php include('footer.php'); ?>
 
+    <script>
+        $(window).resize(function(){
+
+        })
+
+        function resizeImage(bgimage_url){
+            var ratio = Math.min(window.innerWidth / imgWidth, window.innerHeight / imgHeight);
+
+            imgHeight *= ratio;
+            imgWidth *= ratio;
+        }
+
+    </script>
 </body>
 </html>

@@ -7,21 +7,28 @@
 <body>
     <?php include('nav.php'); ?>
 
+    <section class="section-services-main section-main">
+        <div class="container container-fill-width">
+            <div class="row">
+                <div class="glyphicon glyphicon-wrench section-main-glyphicon" aria-hidden="true"></div><br />
+                <h1 class="section-main-header section-gallery-main-header">
+                    Our Services.
+                </h1>
+                <p>
+                    We offer a variety of dental services to accomidate our patients the best we can.
+                </p>
+            </div>
+        </div>
+    </section>
+
 	<section class="section-services">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-4 section-services-main-heading">
-                    <div class="glyphicon glyphicon-certificate" aria-hidden="true"></div>
-                    <h2>Our Services</h2>
-                </div>
-            </div>
-            
             <div class="row btn-all-container">
                 <div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6 col-xs-6">
-                    <button class="btn btn-primary btn-collapse-all">View All</button>
+                    <button class="btn btn-primary btn-expand-all">View All</button>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <button class="btn btn-primary btn-expand-all">Hide All</button>
+                    <button class="btn btn-primary btn-collapse-all">Hide All</button>
                 </div>
             </div>
 
@@ -32,12 +39,12 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingOne">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                         24 Hour On-Call Service
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
                                     Timely response to your calls for dental emergencies.
                                 </div>
@@ -210,7 +217,7 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseTwelve" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwelve">
+                            <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
                                 <div class="panel-body">
                                     Some teeth are so cracked, decayed and broken down that they need full coverage to protect them (Metal, Porcelain-Metal, All porcelain).
                                 </div>
@@ -354,7 +361,7 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseTwentyTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwentyTwo">
+                            <div id="collapseTwentyTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyTwo">
                                 <div class="panel-body">
                                     We treat children as early as 2-3 years of age, depending on their level of comfort. If we cannot see them we have qualified specialists that we refer to.
                                 </div>
@@ -387,7 +394,7 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseTwentyFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyFive">
+                            <div id="collapseTwentyFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyFour">
                                 <div class="panel-body">
                                     Evaluations, custom trays w/take home kits or in-office bleaching.
                                 </div>
@@ -401,7 +408,7 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                            <div id="collapseTwentyFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyFive">
                                 <div class="panel-body">
                                     Composite or porcelain facings are for those looking for the best in cosmetics and restoration quality.
                                 </div>
@@ -428,6 +435,16 @@
     </section>
 
     <?php include('footer.php'); ?>
+
+    <script>
+        $(".btn-collapse-all").click(function(){
+            $(".panel-collapse").removeClass("in");
+        });
+
+        $(".btn-expand-all").click(function(){
+            $(".panel-collapse").addClass("in");
+        });
+    </script>
 
 </body>
 </html>

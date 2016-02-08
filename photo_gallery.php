@@ -7,9 +7,20 @@
 <body>
   <?php include('nav.php'); ?>
 
-  <section class="section-gallery-main">
+  <section class="section-gallery-main section-main">
     <div class="container container-fill-width">
-      <h1 class="section-gallery-main-heading">Photo Gallery</h1>
+      <div class="row">
+      <div class="glyphicon glyphicon-camera section-main-glyphicon" aria-hidden="true"></div><br />
+        <h1 class="section-main-header section-gallery-main-header">
+          Tour our office.
+        </h1>
+        <p>
+          We work in a beautiful atmosphere we take pride in sharing.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div id="Container" class="container container-fill-width">
       <div class="section-gallery-sort-controls">
       	<button class="filter btn btn-primary" data-filter="all">View All</button>
 
@@ -32,7 +43,7 @@
     	}
     }
 	}
-	echo "<!-- sort controls div end --> </div></div><div class='container container-fill-width-100' id='Container'>";
+	echo "<!-- sort controls div end --> </div>";
 	/*
 	echo "<br/>";
 	echo "array contents: " . implode(", ", $dirArray);
@@ -59,7 +70,6 @@
 	
   ?>
   </div>
-  </section>
 
   <div class="modal fade" tabindex="-1" role="dialog"   aria-labelledby="myLargeModalLabel" id="myModal" aria-hidden="true">
     <div class="modal-dialog modal-lg">

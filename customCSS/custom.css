@@ -67,6 +67,52 @@
 	cursor: pointer;
 }
 
+/*Responsiveness*/
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.section-main{
+		height:65%;
+		padding-top:5%;
+	}
+	.section-main-glyphicon{
+		margin-bottom:20px;
+		margin-top:10px;
+	}
+}
+/* Small Devices, Tablets -sm*/
+@media only screen and (min-width : 768px) {
+	.section-main{
+		height:50%;
+		padding-top:5%;
+	}
+	.section-main-glyphicon{
+		margin-bottom:20px;
+		margin-top:10px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.section-main{
+		height:35%;
+		padding-top:5%;
+	}
+	.section-main-glyphicon{
+		margin-bottom:20px;
+		margin-top:10px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.section-main{
+		height:35%;
+		padding-top:5%;
+	}
+	.section-main-glyphicon{
+		margin-bottom:20px;
+		margin-top:10px;
+	}
+}
+
 /*Generic CSS*/
 .page-welcome {
 	height: 100%;
@@ -145,4 +191,11 @@
 	position: relative;
 	top: 40%;
 	transform: translateY(-50%);
+}
+.centered {
+	position: fixed !important;
+	top: 50% !important;
+	left: 50% !important;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%) !important;
 }

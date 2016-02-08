@@ -7,12 +7,12 @@
 <body>
     <?php include('nav.php'); ?>
 
-    <section class="section-careers-main">
+    <section class="section-careers-main section-main">
     	<div class="container">
     		<div class="row">
-    		<div class="glyphicon glyphicon-send" aria-hidden="true"></div><br />
+    		<div class="glyphicon glyphicon-send section-main-glyphicon" aria-hidden="true"></div><br />
     			<h1 class="section-main-header section-careers-main-header">
-    				Be a part of our team.
+    				Join our team.
     			</h1>
     			<p>
     				Browse our open and available positions.

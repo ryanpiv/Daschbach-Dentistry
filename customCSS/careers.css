@@ -1,5 +1,4 @@
 .section-careers-main{
-	padding-top:5%;
 	background-color:#6F5499;
 	color:#CDBFE3;
 	text-align: center;
@@ -13,9 +12,6 @@
 }
 .section-careers-main a:hover{
 	color:#ffffff !important;
-}
-.glyphicon{
-	margin-bottom:20px;
 }
 .panel-group .glyphicon{
 	margin-bottom: 0 !important;

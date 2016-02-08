@@ -4,15 +4,19 @@
 }
 .section-gallery-main{
 	width:100%;
-	padding-top: 3%;
-	padding-bottom: 3%;
 	text-align: center;
+	background-color:#28929F;
+	color:white;
 }
 .section-gallery-sort-controls{
 	padding-bottom:15px;
 	padding-top: 5px;
+	text-align: center;
 }
-#Container > .mix > div {
+.gallery-spacer{
+	padding-top:50px;
+}
+.mix:hover {
 	cursor: pointer;
 }
 #Container .mix{

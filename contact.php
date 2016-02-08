@@ -7,14 +7,16 @@
 <body>
     <?php include('nav.php'); ?>
 
-    <section class="section-contact-main">
-    	<div class="container container-fill-height">
-    			<h1 class="section-contact-main-header1">
-            <div class="glyphicon glyphicon-search contact-globe" aria-hidden="true"></div><br />
-            Let's work together.
-          </h1>
-    	</div>
-    </section>
+	<section class="section-contact-main section-main">
+		<div class="container container-fill-width">
+			<div class="row">
+				<div class="glyphicon glyphicon-globe contact-globe section-main-glyphicon" aria-hidden="true"></div><br />
+				<h1 class="section-main-header section-contact-main-header">
+					Let's get in touch.
+				</h1>
+			</div>
+		</div>
+	</section>
 
     <section class="contact-call">
       <div class="container conatiner-full">

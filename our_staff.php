@@ -11,7 +11,7 @@
 <body>
   <?php include('nav.php'); ?>
 
-  <section class="section-staff-main">
+  <section class="section-staff-main section-main">
     <div class="container">
       <div class="row">
         <div class="section-staff-main-heading">
