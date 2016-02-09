@@ -20,6 +20,7 @@
       </div>
     </div>
   </section>
+  <section class="section-content">
   <div id="Container" class="container container-fill-width">
       <div class="section-gallery-sort-controls">
       	<button class="filter btn btn-primary" data-filter="all">View All</button>
@@ -70,6 +71,7 @@
 	
   ?>
   </div>
+  </section>
 
   <div class="modal fade" tabindex="-1" role="dialog"   aria-labelledby="myLargeModalLabel" id="myModal" aria-hidden="true">
     <div class="modal-dialog modal-lg">

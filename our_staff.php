@@ -28,7 +28,7 @@
     </div>
   </section>
 
-  <section class="section-staff-info">
+  <section class="section-staff-info section-content">
     <div class="container">
       <div class="row">
         <h1 id="info-main-heading"></h1>
@@ -42,7 +42,7 @@
     </div>
   </section>
 
-  <section class="section-staff-photos">
+  <section class="section-staff-photos section-content">
     <div class="container container-fill-width">
       <h4>Click our pictures to learn more about us.</h4>
       <div class="row">

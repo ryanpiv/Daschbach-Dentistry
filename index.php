@@ -9,7 +9,7 @@
 
     <section class="welcome-section">
         <div class="container">
-            <div class="center">
+            <div class="center section-content">
                 <h1 class="welcome-text" style="margin-top:inherit">R.L. Daschbach</h1><h3> & </h3><h1 class="welcome-text">Associates</h1>
                 <h1 class="welcome-text subtitle">Family Dentistry</h1>
                 <div style="margin:10px">
@@ -21,7 +21,7 @@
     </section>
 
     <!-- Begin Carousel -->
-    <section class="welcome-carousel">
+    <section class="welcome-carousel section-content">
         <div class="jumbotron">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -90,7 +90,7 @@
     </section>
     <!-- End Carousel -->
 
-    <section class="statement-section">
+    <section class="statement-section section-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

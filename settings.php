@@ -12,3 +12,6 @@
 <link rel="icon" type="image/png" href="favicon.ico" />
 
 <script src="bootstrap/bootstrap-modal-carousel-master/dist/js/bootstrap-modal-carousel.js"/></script/>
+
+<link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>

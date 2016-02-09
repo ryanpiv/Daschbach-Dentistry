@@ -1,5 +1,5 @@
 <div class="footer-adjust"></div>
-<footer class="footer">
+<footer class="footer section-content">
     <div class="container">
         <p class="footer-text">"I can do everything through him who gives me strength."</p>
         <legend style="margin-bottom:10px"></legend>

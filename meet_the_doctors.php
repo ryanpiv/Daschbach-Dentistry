@@ -19,7 +19,7 @@
         </div>
     </section>
 
-	<section class="section-doctors">
+	<section class="section-doctors section-content">
         <div class="container"> 
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 img-doctors-main">
@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section id="section-bob-about" class="section-bob-about">
+    <section id="section-bob-about" class="section-bob-about section-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section id="section-marie-about" class="section-marie-about">
+    <section id="section-marie-about" class="section-marie-about section-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -126,7 +126,7 @@
         </div>
     </section>
 
-    <section id="section-maq-about" class="section-bob-about">
+    <section id="section-maq-about" class="section-bob-about section-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -152,7 +152,7 @@
         </div>
     </section>
 
-    <section id="section-scott-about" class="section-marie-about">
+    <section id="section-scott-about" class="section-marie-about section-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -195,7 +195,7 @@
         </div>
     </section>
 
-    <section id="section-paul-about" class="section-bob-about">
+    <section id="section-paul-about" class="section-bob-about section-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -247,7 +247,7 @@
         </div>
     </section>
 
-    <section id="section-sarah-about" class="section-sarah-about">
+    <section id="section-sarah-about" class="section-sarah-about section-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

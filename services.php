@@ -21,7 +21,7 @@
         </div>
     </section>
 
-	<section class="section-services">
+	<section class="section-services section-content">
         <div class="container">
             <div class="row btn-all-container">
                 <div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6 col-xs-6">

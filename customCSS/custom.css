@@ -13,6 +13,10 @@
 	font-family: 'Montserrat', sans-serif;
 	src: url("http://fonts.googleapis.com/css?family=Montserrat");
 }
+@font-face{
+	font-family: 'Poppins', sans-serif;
+	src: url("https://fonts.googleapis.com/css?family=Poppins:600");
+}
 
 /*bootstrap overrides*/
 .navbar-nav {
@@ -191,6 +195,12 @@
 	position: relative;
 	top: 40%;
 	transform: translateY(-50%);
+}
+.section-main{
+	font-family: 'Poppins', sans-serif;
+}
+.section-content{
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .centered {
 	position: fixed !important;
