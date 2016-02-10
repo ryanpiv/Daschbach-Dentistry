@@ -1,10 +1,75 @@
 /*meet_the_doctors.php*/
+.doctor-preview-img-one{
+	background-image: url("../images/meet_the_doctors/bob.jpg");
+}
+.doctor-preview-img-two{
+	background-image: url("../images/meet_the_doctors/marie.jpg");
+} 
+.doctor-preview-img-three{
+	background-image: url("../images/meet_the_doctors/maq.jpg");
+}
+.doctor-preview-img-four{
+	background-image: url("../images/meet_the_doctors/scott.jpg");
+}
+.doctor-preview-img-five{
+	background-image: url("../images/meet_the_doctors/paul_resize.jpg");
+}
+.doctor-preview-img-six{
+	background-image: url("../images/meet_the_doctors/sarah.jpg");
+}
+.doctor-preview-img{
+	background-size: cover;
+	height:300px;
+	text-align: center;
+	padding:0 !important;
+}
+.doctor-preview-img:hover{
+	cursor: pointer;
+}
+.doctor-preview-img-title{
+	position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    font-size:20px;
+}
+.doctor-preview-img-overlay{
+	opacity:0;
+	background-color:black;
+	height: 300px;
+	width: 100%;
+}
+.hover-class{
+	opacity:0.6;
+	transition:opacity .3s;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+}
+.hover-class-title{
+	opacity:1;
+	transition:opacity .3s;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+}
+.section-doctors-preview{
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align: center;
+}
+.section-doctors-preview-subtitle{
+	text-align: center;
+}
 .section-doctors-main{
 	background-color: #CA3636;
 	color:#fff;
 	width:100%;
 	text-align: center;
-	margin-bottom: 50px;
 }
 .section-doctors-main-header{
 	text-align: center;
@@ -19,57 +84,54 @@
 	text-transform: uppercase;
 	text-align: center;
 }
-.section-bob-about{
-	padding-top: 3%;
-	padding-bottom: 3%;
-	background-color: #9BBFBB;
-	width: 100%;
+.section-about{
+	color:black;
 }
-.section-bob-about-header1{
+.section-about-alt{
+	background-color: #CA3636;
+	color:#DEDEDE;
+}
+.section-about, .section-about-alt{
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+.doctor-bio-header{
+	color:#9BBFBB;
+}
+.doctor-bio-header-alt{
 	color:white;
-	text-transform: uppercase;
-	padding-bottom:2%;
 }
-.section-bob-about-header2{
-	text-transform: uppercase;
-	color: white;
+.doctor-bio-img{
+	margin-left:15px;
+	margin-bottom:5px;
 }
-.section-marie-about{
-	padding-top: 3%;
-	padding-bottom: 3%;
-	width: 100%;
+.doctor-bio-img-alt{
+	margin-right:15px;
+	margin-bottom:5px;
 }
-.section-marie-about-header1{
-	text-transform: uppercase;
-	color:#9BBFBB;
-	padding-bottom:2%;
+
+/*Responsiveness*/
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.doctor-preview-img{
+
+	}
 }
-.section-marie-about-header2{
-	text-transform: uppercase;
-	color:#9BBFBB;
+/* Small Devices, Tablets -sm*/
+@media only screen and (min-width : 768px) {
+	.doctor-preview-img{
+		
+	}
 }
-.img-marie{
-	padding: 1%;
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.doctor-preview-img{
+		
+	}
 }
-.img-bob{
-	padding: 1%;
-	display: inline;
-}
-.list-scott-accomplishments{
-	margin-bottom: 0;
-}
-.scott-panel-body{
-	background-color: #d9edf7;
-}
-.paul-panel-body{
-	background-color: #faebcc;
-}
-.paul-panel-info{
-	width:70%;
-	display: inline-block;
-}
-.section-sarah-about{
-	padding-top: 3%;
-	padding-bottom: 5%;
-	width: 100%;
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.doctor-preview-img{
+		
+	}
 }

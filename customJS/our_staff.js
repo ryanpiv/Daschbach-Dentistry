@@ -277,7 +277,8 @@ $(".img-container").click(function() {
 	}
 
 	$("html, body").stop().animate({
-		scrollTop: $(".staff-legend-main").offset().top
+		scrollTop: $(".section-staff-info").offset().top-50
 	}, 700, !1);
+	//-50 makes up for nav bar space, which is set to min-height 50px
 
 });

@@ -20,31 +20,37 @@
 	padding: 3% 0 3%;
 	background-color: rgba(7,44,57,0.8);
 }
-/*@media (min-width:1200px){
-	.contact-info-heading:after{
-		background: url(../images/bg_off.png) repeat;
-		content: "";
-		height: 5px;
-		margin-left: 10px;
-		position: absolute;
-		top: 12px;
-		width: 99%;
-		top: 50%;
-	}
+.glyphicon-earphone{
+	color:white;
 }
-@media (max-width:1199px){
-	.contact-info-heading:after{
-		background: url(../images/bg_off.png) repeat;
-		content: "";
-		height: 5px;
-		margin-left: 10px;
-		position: absolute;
-		top: 12px;
-		width: 99%;
-		top: 40%;
-	}
-}*/
+.contact-call{
+	padding: 3% 0;
+	text-align: center;
+	background-color: rgba(7,44,57,0.8);
+}
+.contact-call-heading-phone{
+	text-transform:uppercase;
+	color:#c5c5c5;
+	font-size:20px;
+}
+.contact-call-heading-fax{
+	color: #c5c5c5;
+}
+.contact-call h1, .contact-call p{
+	color:white;
+}
+.contact-hours-ul{
 
+}
+.contact-hours-li{
+	list-style-type: none;
+}
+.contact-hours-day{
+	float:left;
+}
+.contact-hours-hours{
+	float:right;
+}
 .contact-info-heading,.contact-address{
 	color: rgb(230, 230, 230);
 }
@@ -55,12 +61,13 @@
 	overflow: hidden;
 }
 #googleMap iframe {
-	   width: 100%;
-	}
+   	width: 100%;
+}
 #googleMap {
-	   height: 350px;
-	}
-#googleMap img { max-width: none;
+  	height: 350px;
+}
+#googleMap img { 
+	max-width: none;
 }
 .contact-maps{
 	padding:3% 0 3%;
@@ -75,25 +82,4 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: #c5c5c5;
-}
-.contact-call{
-	padding: 3% 0;
-	text-align: center;
-}
-.contact-call-heading-phone{
-	text-transform:uppercase;
-	color:#c5c5c5;
-	font-size:20px;
-}
-.contact-hours-ul{
-
-}
-.contact-hours-li{
-	list-style-type: none;
-}
-.contact-hours-day{
-	float:left;
-}
-.contact-hours-hours{
-	float:right;
 }

@@ -24,9 +24,10 @@
           </div>
         </div>
       </div>
-      <legend class="staff-legend-main" style="padding-bottom:3%"></legend>
     </div>
   </section>
+
+  <div class="container"><legend class="staff-legend-main"></legend></div>
 
   <section class="section-staff-info section-content">
     <div class="container">

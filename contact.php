@@ -25,7 +25,7 @@
         <h3 class="contact-call-heading-phone">Give us a call</h1>
         <h1>215-721-8811</h1>
       </div>
-      <h3>Fax</h3>
+      <h3 class="contact-call-heading-fax">Fax</h3>
       <p>215-721-5393</p>
     </div>
   </section>
