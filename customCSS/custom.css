@@ -18,6 +18,11 @@
 	src: url("https://fonts.googleapis.com/css?family=Poppins:600");
 }
 
+/*Pace*/
+section{
+	display: none;
+}
+
 /*bootstrap overrides*/
 .navbar-nav {
 	border: none;
