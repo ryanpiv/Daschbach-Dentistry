@@ -19,7 +19,7 @@
 .mix:hover {
 	cursor: pointer;
 }
-#Container .mix{
+#Container-mix .mix{
 	display: none;
 }
 @media only screen and (max-width: 620px) {

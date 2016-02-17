@@ -13,5 +13,6 @@
 <script>
 	Pace.on("done", function () {
   		$("section").css('display', 'block');
+  		$('#Container-mix').mixItUp();
   	});
 </script>

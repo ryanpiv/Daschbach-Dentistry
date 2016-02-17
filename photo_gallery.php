@@ -21,7 +21,7 @@
     </div>
   </section>
   <section class="section-content">
-  <div id="Container" class="container container-fill-width">
+  <div id="Container-mix" class="container container-fill-width">
       <div class="section-gallery-sort-controls">
       	<button class="filter btn btn-primary" data-filter="all">View All</button>
 
@@ -169,12 +169,6 @@
         bg_prev = $(bg_current).prev();
       }
     }
-  </script>
-
-  <script>
-	  $(document).ready(function(){
-	  	$('#Container').mixItUp();
-	  });
   </script>
 </body>
 </html>

@@ -17,4 +17,4 @@
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
 
 <script src="js Libraries/pace/pace.min.js" type="text/javascript"></script>
-<link href="js Libraries/pace/big-counter.css" rel="stylesheet" type="text/css" />
+<link href="js Libraries/pace/minimal.css" rel="stylesheet" type="text/css" />
