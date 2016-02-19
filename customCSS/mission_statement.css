@@ -29,12 +29,19 @@
 		min-height:400px;
 		padding-top:5%;
 	}
+	.vc-fill{
+		height:0px !important;
+	}
 }
+
 /* Small Devices, Tablets -sm*/
 @media only screen and (min-width : 768px) {
 	.section-statement-content{
 		min-height:50%;
 		padding-top:5%;
+	}
+	.vc-fill{
+		height:0px !important;
 	}
 }
 /* Medium Devices, Desktops */
@@ -43,12 +50,18 @@
 		min-height:65%;
 		padding-top:5%;
 	}
+	.vc-fill{
+		height:25px !important;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 	.section-statement-content{
 		min-height:65%;
 		padding-top:5%;
+	}
+	.vc-fill{
+		height: 25px !important;
 	}
 }
 

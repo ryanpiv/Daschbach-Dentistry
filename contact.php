@@ -12,21 +12,24 @@
 			<div class="row">
 				<div class="glyphicon glyphicon-globe contact-globe section-main-glyphicon" aria-hidden="true"></div><br />
 				<h1 class="section-main-header section-contact-main-header">
-					Let's get in touch.
+					Get in touch.
 				</h1>
+        <p>
+          Call, email, fax, or face-to-face.
+        </p>
 			</div>
 		</div>
 	</section>
 
-  <section class="contact-call section-content">
+  <section class="section-contact-call section-content">
     <div class="container conatiner-full">
       <div class="row">
         <div class="glyphicon glyphicon-earphone" aria-hidden="true"></div>
-        <h3 class="contact-call-heading-phone">Give us a call</h1>
-        <h1>215-721-8811</h1>
+        <h2 class="phone-heading">Phone</h2>
+        <h1 class="phone-number">215-721-8811</h1>
       </div>
-      <h3 class="contact-call-heading-fax">Fax</h3>
-      <p>215-721-5393</p>
+      <h3 class="fax-heading">Fax</h3>
+      <p class="fax-number">215-721-5393</p>
     </div>
   </section>
 
@@ -61,7 +64,7 @@
               Saturday
               <p class="contact-hours-hours">8:30am - 2:00pm</p>
             </li>
-            <li class="list-group-item lihover">
+            <li class="list-group-item lihover sunday">
               Sunday
               <p class="contact-hours-hours">Closed</p>
             </li>
@@ -80,6 +83,7 @@
     <div class="container">
       <h1 class="contact-map-heading"><a target="_blank" href="https://www.google.com/maps/place/390+Harleysville+Pike,+Souderton,+PA+18964/@40.3153595,-75.3337482,17z/data=!3m1!4b1!4m2!3m1!1s0x89c6a024479ca3cd:0x9b3eb5a30a3e87e9?hl=en">Locate us</a></h1>
       <div class="glyphicon glyphicon-map-marker contact-map-marker" aria-hidden="true"></div>
+
       <?php include('google-map.php'); ?>
     </div>
   </section>

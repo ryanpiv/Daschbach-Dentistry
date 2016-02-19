@@ -1,13 +1,29 @@
-<div id="googleMap"></div>
+<div id=googleMap></div>
 
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+	function initMap(){
+		var mapDiv = document.getElementById('map');
+    	var map = new google.maps.Map(mapDiv, {
+      		center: {
+      			lat: 44.540, 
+      			lng: -78.546},
+      		zoom: 8
+      	});
+
+      	map.set('styles', [{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"simplified"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"hue":"#f49935"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"hue":"#fad959"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"hue":"#a1cdfc"},{"saturation":30},{"lightness":49}]}] );
+    
+    }
+</script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script> -->
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?"></script>
 <script type="text/javascript">
 //<![CDATA[
 var geocoder = new google.maps.Geocoder();
 var address = "390 Harleysville Pike Souderton, PA 18964"; //Add your address here, all on one line.
 var latitude;
 var longitude;
-var color = ""; //Set your tint color. Needs to be a hex value.
+var color = "#ccc"; //Set your tint color. Needs to be a hex value.
 
 function getGeocode() {
 	geocoder.geocode( { 'address': address}, function(results, status) {
@@ -22,9 +38,7 @@ function getGeocode() {
 function initGoogleMap() {
 	var styles = [
 	    {
-	      stylers: [
-	        { saturation: -100 }
-	      ]
+	      stylers: [{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"simplified"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"hue":"#f49935"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"hue":"#fad959"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"hue":"#a1cdfc"},{"saturation":30},{"lightness":49}]}]
 	    }
 	];
 
@@ -74,4 +88,6 @@ function initGoogleMap() {
 }
 google.maps.event.addDomListener(window, 'load', getGeocode);
 //]]>
+
 </script>
+

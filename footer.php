@@ -14,5 +14,9 @@
 		$("section").css('display', 'block');
 		$(".vegas-overlay").css('display', 'block');
 		$('#Container-mix').mixItUp();
+		try{
+			initGoogleMap();
+		} catch(err) { console.log(err); }
+		
 	});
 </script>

@@ -89,7 +89,7 @@ section{
 @media only screen and (min-width : 480px) {
 	.section-main{
 		min-height:65%;
-		padding-top:5%;
+		padding-top:3%;
 	}
 	.section-main-glyphicon{
 		margin-bottom:20px;
@@ -100,7 +100,7 @@ section{
 @media only screen and (min-width : 768px) {
 	.section-main{
 		min-height:50%;
-		padding-top:5%;
+		padding-top:3%;
 	}
 	.section-main-glyphicon{
 		margin-bottom:20px;
@@ -111,7 +111,7 @@ section{
 @media only screen and (min-width : 992px) {
 	.section-main{
 		min-height:35%;
-		padding-top:5%;
+		padding-top:3%;
 	}
 	.section-main-glyphicon{
 		margin-bottom:20px;
@@ -122,7 +122,7 @@ section{
 @media only screen and (min-width : 1200px) {
 	.section-main{
 		min-height:35%;
-		padding-top:5%;
+		padding-top:3%;
 	}
 	.section-main-glyphicon{
 		margin-bottom:20px;

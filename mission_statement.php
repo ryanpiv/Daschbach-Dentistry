@@ -41,14 +41,14 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-3" style="height:25px"></div>
-          <div id="vc-play" class="col-lg-2 col-md-1 col-sm-4 col-xs-4 vegas-control vegas-control-active">Play</div>
-          <div id="vc-next" class="col-lg-2 col-md-1 col-sm-4 col-xs-4 vegas-control" >Next</div>
-          <div id="vc-first" class="col-lg-2 col-md-1 col-sm-4 col-xs-4 vegas-control">First</div>
-          <div class="col-lg-3 col-md-3" style="height:25px"></div>
-          <div class="col-lg-3 col-md-3" style="height:25px"></div>
-          <div id="vc-pause" class="col-lg-2 col-md-1 col-sm-4 col-xs-4 vegas-control">Pause</div>
-          <div id="vc-prev" class="col-lg-2 col-md-1 col-sm-4 col-xs-4 vegas-control">Previous</div>
-          <div id="vc-last" class="col-lg-2 col-md-1 col-sm-4 col-xs-4 vegas-control">Last</div>
+          <div id="vc-play" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 vegas-control vegas-control-active">Play</div>
+          <div id="vc-next" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 vegas-control" >Next</div>
+          <div id="vc-first" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 vegas-control">First</div>
+          <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0 vc-fill" style="height:25px"></div>
+          <div class="col-lg-3 col-md-3 col-xs-0 col-sm-0 vc-fill" style="height:25px"></div>
+          <div id="vc-pause" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 vegas-control">Pause</div>
+          <div id="vc-prev" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 vegas-control">Previous</div>
+          <div id="vc-last" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 vegas-control">Last</div>
         </div>
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:25px">
@@ -73,6 +73,7 @@
     ],
     overlay: 'js-libraries/vegas/overlays/01.png',
     delay: 10000,
+    autoplay: true,
     walk: function (index, slideSettings) {
       //console.log("Slide index " + index + " image " + slideSettings.src);
       if(items.length > 0){
