@@ -3,7 +3,7 @@
 
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
-<script src="js Libraries/mixitup-master/build/jquery.mixitup.min.js" type="text/javascript"></script>
+<script src="js-libraries/mixitup-master/build/jquery.mixitup.min.js" type="text/javascript"></script>
 
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
@@ -16,5 +16,5 @@
 <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
 
-<script src="js Libraries/pace/pace.min.js" type="text/javascript"></script>
-<link href="js Libraries/pace/minimal.css" rel="stylesheet" type="text/css" />
+<script src="js-libraries/pace/pace.min.js" type="text/javascript"></script>
+<link href="js-libraries/pace/minimal.css" rel="stylesheet" type="text/css" />

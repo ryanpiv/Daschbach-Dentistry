@@ -22,6 +22,9 @@
 section{
 	display: none;
 }
+.vegas-overlay{
+	display: none;
+}
 
 /*bootstrap overrides*/
 .navbar-nav {
@@ -90,7 +93,7 @@ section{
 	}
 	.section-main-glyphicon{
 		margin-bottom:20px;
-		margin-top:10px;
+		margin-top:50px;
 	}
 }
 /* Small Devices, Tablets -sm*/
@@ -101,7 +104,7 @@ section{
 	}
 	.section-main-glyphicon{
 		margin-bottom:20px;
-		margin-top:10px;
+		margin-top:50px;
 	}
 }
 /* Medium Devices, Desktops */
@@ -112,7 +115,7 @@ section{
 	}
 	.section-main-glyphicon{
 		margin-bottom:20px;
-		margin-top:10px;
+		margin-top:50px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -123,7 +126,7 @@ section{
 	}
 	.section-main-glyphicon{
 		margin-bottom:20px;
-		margin-top:10px;
+		margin-top:50px;
 	}
 }
 
@@ -160,7 +163,7 @@ section{
 	font-style: italic;
 }
 .footer-adjust{
-	height:10%;
+	height:80px;
 	width:100%;
 }
 .font-heavy{

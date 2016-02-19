@@ -8,11 +8,11 @@
 </footer>
 <!-- Scripts -->
 <script src="customJS/custom.js" type="text/javascript"></script>
-<script type="text/javascript" src="js Libraries/vegas/jquery.vegas.js"></script>
 
 <script>
 	Pace.on("done", function () {
-  		$("section").css('display', 'block');
-  		$('#Container-mix').mixItUp();
-  	});
+		$("section").css('display', 'block');
+		$(".vegas-overlay").css('display', 'block');
+		$('#Container-mix').mixItUp();
+	});
 </script>
