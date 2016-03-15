@@ -19,6 +19,7 @@
         </div>
     </section>
 
+    <!-- 
     <section class="section-doctors-preview section-content">
     	<div class="container">
     		<div class="row">
@@ -51,6 +52,7 @@
     		</div>
     	</div>
     </section>
+    -->
 
     <section class="section-about section-content section-doctor-one">
         <div class="container">

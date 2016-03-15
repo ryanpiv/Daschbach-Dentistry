@@ -1,0 +1,524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vegas-contr",
+				"vegas-control-active"
+			],
+			[
+				"vegas",
+				"vegas-control-active"
+			],
+			[
+				"section-",
+				"section-statement-content"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"care",
+				"careersCount"
+			],
+			[
+				"car",
+				"careersCount"
+			],
+			[
+				"hyg",
+				"Hygienist"
+			],
+			[
+				"resi",
+				"resizeImageExceptions"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"resiz",
+				"resizeImage"
+			],
+			[
+				"glyp",
+				"glyphicon-chevron-right"
+			],
+			[
+				"bgim",
+				"bgimage_url"
+			],
+			[
+				"modal",
+				"modal-lg"
+			],
+			[
+				"tex",
+				"textarea	Tag"
+			],
+			[
+				"on",
+				"onScroll"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"exti",
+				"exitFullscreen"
+			],
+			[
+				"exit",
+				"exitFullscreen"
+			],
+			[
+				"docum",
+				"documentElement"
+			],
+			[
+				"vide",
+				"videoElement"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"game",
+				"game_youtube_link"
+			],
+			[
+				"game_video",
+				"game_video_path"
+			],
+			[
+				"Pikimn",
+				"Pikmin_2"
+			],
+			[
+				"game_video_pat",
+				"game_video_path_intro"
+			],
+			[
+				"game_you",
+				"game_youtube_start_time"
+			],
+			[
+				"video",
+				"video_intro"
+			],
+			[
+				"vid",
+				"videoObj"
+			],
+			[
+				"Lui",
+				"Luigis_Mansion"
+			],
+			[
+				"game_",
+				"game_series_sequence"
+			],
+			[
+				"game_ser",
+				"game_series_name"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"video_yout",
+				"video_youtube_start"
+			],
+			[
+				"vidoe",
+				"video_youtube"
+			],
+			[
+				"get",
+				"getParameterByName"
+			],
+			[
+				"dis",
+				"display_type"
+			],
+			[
+				"rdo",
+				"rdoBtnCompare"
+			],
+			[
+				"quality",
+				"quality_type"
+			],
+			[
+				"player",
+				"player_size"
+			],
+			[
+				"conte",
+				"content_type"
+			],
+			[
+				"iframe",
+				"iframe-small"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"search",
+				"search-row"
+			],
+			[
+				"slid",
+				"slideUp"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/Dashbach-Dentistry"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/Dashbach-Dentistry/contact.php",
+		"/C/wamp/www/Dashbach-Dentistry/meet_the_doctors.php",
+		"/C/Users/ryanp/AppData/Local/Temp/7zO672.tmp/snazzymaps.js",
+		"/C/wamp/www/Dashbach-Dentistry/js-libraries/vegas/vegas.js",
+		"/C/wamp/www/Dashbach-Dentistry/careers.php",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/contact.css",
+		"/C/wamp/www/Dashbach-Dentistry/footer.php",
+		"/C/wamp/www/Dashbach-Dentistry/mission_statement.php",
+		"/C/wamp/www/Dashbach-Dentistry/mission_statement_old.php",
+		"/C/wamp/www/Dashbach-Dentistry/google-map.php",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/custom.css",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/photo_gallery.css",
+		"/C/wamp/www/Dashbach-Dentistry/customJS/custom.js",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/mission_statement.css",
+		"/C/wamp/www/Dashbach-Dentistry/web.config",
+		"/C/wamp/www/Dashbach-Dentistry/admin_files/mission_statement/mission_statement.json",
+		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/node_modules/cookie-parser/README.md",
+		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/authorization_code/app.js",
+		"/C/wamp/www/Dashbach-Dentistry/flexboxgrid-6.3.0/README.md",
+		"/C/wamp/www/Dashbach-Dentistry/customJS/our_staff.js",
+		"/C/wamp/www/Dashbach-Dentistry/custom.css",
+		"/C/wamp/www/Dashbach-Dentistry/settings.php",
+		"/C/wamp/www/Dashbach-Dentistry/admin_files/careers/careers.json",
+		"/C/wamp/www/Dashbach-Dentistry/flexboxgrid-6.3.0/css/flexboxgrid.css",
+		"/C/wamp/www/Dashbach-Dentistry/flexboxgrid-6.3.0/css/index.css",
+		"/C/wamp/www/Dashbach-Dentistry/flexboxgrid-6.3.0/index.html",
+		"/C/wamp/www/Dashbach-Dentistry/our_staff.php",
+		"/C/wamp/www/Dashbach-Dentistry/photo_gallery.php",
+		"/C/wamp/www/Dashbach-Dentistry/page.php",
+		"/C/wamp/www/VideoGameTitleScreens/index.html",
+		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/pace.js",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/meet_the_doctors.css",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/services.css",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/careers.css",
+		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/pace.min.js",
+		"/C/wamp/www/VideoGameTitleScreens/player.html",
+		"/C/wamp/www/VideoGameTitleScreens/js/general_js.js",
+		"/C/Users/ryanp/Documents/GitHub/BustinBot/script.py",
+		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/center-simple.css",
+		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/big-counter.css",
+		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/flat-top.css",
+		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/minimal.css",
+		"/C/wamp/www/Dashbach-Dentistry/js Libraries/pace/filll_left.css",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/our_staff.css",
+		"/C/wamp/www/Dashbach-Dentistry/nav.php",
+		"/C/wamp/www/Dashbach-Dentistry/services.php",
+		"/C/Users/ryanp/Documents/GitHub/welcome/index.html",
+		"/C/wamp/www/Dashbach-Dentistry/index.php",
+		"/C/wamp/www/Dashbach-Dentistry/bootstrap/js/bootstrap.js",
+		"/C/wamp/www/VideoGameTitleScreens/css/general.css",
+		"/C/wamp/www/Dashbach-Dentistry/new_patient_forms.php",
+		"/C/wamp/www/VideoGameTitleScreens/screens.json",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/index.css",
+		"/C/wamp/www/Dashbach-Dentistry/Styles/Site.css",
+		"/C/wamp/www/Dashbach-Dentistry/Functions/database.php",
+		"/C/wamp/www/Dashbach-Dentistry/editpage.php",
+		"/C/wamp/www/Dashbach-Dentistry/meet_the_doctors.html",
+		"/C/wamp/www/Dashbach-Dentistry/index.html",
+		"/C/wamp/www/Dashbach-Dentistry/customCSS/pgtest.css",
+		"/C/wamp/www/Dashbach-Dentistry/photo_gallery - bootstrap cols.php",
+		"/C/wamp/www/Dashbach-Dentistry/pg_test.php",
+		"/C/Users/ryanp/Documents/GitHub/welcome/css/StyleSheet1.css",
+		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/implicit_grant/app.js",
+		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/authorization_code/public/index.html",
+		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/implicit_grant/public/index.html",
+		"/C/wamp/www/musicgame/spotify_tutorial/web-api-auth-examples-master/node_modules/express/index.js",
+		"/C/wamp/www/musicgame/spotify_tutorial/njtest/server.js",
+		"/C/wamp/www/musicgame/spotify_tutorial/server.js",
+		"/C/wamp/www/musicgame/server.js",
+		"/C/Users/ryanp/Documents/GitHub/welcome/bootstrap-3.1.1-dist/css/bootstrap.css",
+		"/C/wamp/www/VideoGameTitleScreens/js/settings.js",
+		"/C/wamp/www/VideoGameTitleScreens/js/data.js",
+		"/C/wamp/www/VideoGameTitleScreens/js/player.js",
+		"/C/wamp/www/VideoGameTitleScreens/css/player.css",
+		"/C/wamp/www/VideoGameTitleScreens/css/settings.js",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\Dashbach-Dentistry",
+			"careers.php",
+			"photo_gallery - bootstrap cols.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"google",
+			"js Libraries",
+			"filter",
+			"#Container",
+			"sub",
+			"preview",
+			"img",
+			"section-main",
+			"resume",
+			"centered",
+			"\"0\"",
+			"width",
+			"arrow",
+			"#Container",
+			"projects",
+			"!important",
+			"#page-skills",
+			"projects",
+			"page-experience-item",
+			" col-lg-offset-0",
+			"scroll",
+			"scrollable",
+			"page-welcome h1",
+			"header",
+			"h1",
+			"container",
+			"BACKGROUND",
+			"profile",
+			"col-lg-offset-3 col-lg-2 col-md-offset-3 col-md-2 col-sm-4 col-xs-4",
+			"Handlebars",
+			"userProfileSource",
+			"user-profile-template",
+			"request",
+			"express",
+			"top",
+			"page-contact",
+			"png",
+			"col-lg-12",
+			"777",
+			"nav>li>a",
+			"nav > li > a",
+			".nav > li > a",
+			"li > a",
+			"active",
+			"a",
+			"li",
+			"video",
+			"player-container",
+			"span",
+			"btn",
+			"settings-legend",
+			"player_size",
+			"display_type",
+			"quality_type",
+			"if(getCookie(\"quality_type\") != \"\"){\n  quality_type = document.cookie=\"quality_type\";\n} else {\n  //quality_type = \n}\nif(getCookie(\"display_type\") != \"\"){\n  display_type = document.cookie=\"display_type\";\n}\nif(getCookie(\"player_size\") != \"\"){\n  player_size = document.cookie=\"player_size\";\n} else {\n  player_size = $('input[type=radio][name=settings-video-size]').value;\n  setCookie(\"player_size\", player_size);\n}",
+			"container",
+			"slide",
+			"line",
+			"settings",
+			"svg",
+			"80"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"js-libraries",
+			"$careersCount",
+			"",
+			"col-lg-2 col-md-2 col-sm-4 col-xs-4",
+			"jpg",
+			"col-lg-6",
+			"my-active"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Daschbach-Dentistry.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

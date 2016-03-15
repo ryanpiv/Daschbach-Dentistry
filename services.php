@@ -350,7 +350,7 @@
             </div>
         
             <div class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4">
                     <h3 class="section-services-heading3">Pediatrics and Prevention</h3>
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
@@ -383,6 +383,7 @@
                         </div>
                     </div>
                 </div>
+                <!--
                 <div class="col-lg-6 col-md-6">
                     <h3 class="section-services-heading3">Financial & Insurance</h3>
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -429,7 +430,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
+                -->
             </div>
         </div>
     </section>

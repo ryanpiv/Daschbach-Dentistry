@@ -15,14 +15,7 @@
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu1" data-toggle="dropdown" aria-expanded="true">Services
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">View All Services</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Emergency Services</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Periodontal Services</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Restorative Services</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Prosthetic Services</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Veneer & Cosmetic Services</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Dental Implant Therapy</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Pediatrics and Prevention</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">All Services</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Financial and Insurance</a></li>
                         </ul>
                     </a>
