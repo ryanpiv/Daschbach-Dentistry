@@ -11,6 +11,17 @@
 <body>
   <?php include('nav.php'); ?>
 
+  <script>
+    var items = [];
+    $.getJSON( "admin_files/our_staff/our_staff.json", function( data ) {
+      $.each( data, function( key, val ) {
+        //items.push(key);
+        items.push(val);
+      });
+    });
+    console.log(items);
+  </script>
+
   <section class="section-staff-main section-main">
     <div class="container">
       <div class="row">
@@ -42,6 +53,22 @@
       <legend></legend>
     </div>
   </section>
+
+<!--
+  <section class="section-staff-photos section-content">
+    <div class="container container-fill-width">
+      <h4>Click our pictures to learn more about us.</h4>
+      <div class="row">
+        <h2 class="staff-heading"></h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1 col-md-3 col-md-offset-0 col-xs-5 col-xs-offset-1">
+          <div class="img-container img-mbrobst"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
 
   <section class="section-staff-photos section-content">
     <div class="container container-fill-width">
