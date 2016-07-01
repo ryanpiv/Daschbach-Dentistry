@@ -13,6 +13,7 @@
 	text-align: center;
 }
 .section-statement-content{
+	padding-top:15px;
 	text-align: center;
 }
 .current-statement{
@@ -22,50 +23,19 @@
 	font-size: 18px;
 	font-family: sans-serif;
 }
-/*Responsiveness*/
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-	.section-statement-content{
-		min-height:400px;
-		padding-top:5%;
-	}
-	.vc-fill{
-		height:0px !important;
-	}
+/*bootstrap overrides*/
+.list-group-item{
+    margin-top: 10px !important;
+    border-radius: 5px !important;
+    background-color: #f3f3f3 !important; 
 }
-
-/* Small Devices, Tablets -sm*/
-@media only screen and (min-width : 768px) {
-	.section-statement-content{
-		min-height:50%;
-		padding-top:5%;
-	}
-	.vc-fill{
-		height:0px !important;
-	}
-}
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-	.section-statement-content{
-		min-height:65%;
-		padding-top:5%;
-	}
-	.vc-fill{
-		height:25px !important;
-	}
-}
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-	.section-statement-content{
-		min-height:65%;
-		padding-top:5%;
-	}
-	.vc-fill{
-		height: 25px !important;
-	}
+.badge{
+	float:left !important;
+	background-color: #ababab !important;
 }
 
 /*vegas overrides*/
+/*
 .vegas-timer{
 	top: 0 !important;
 }
@@ -93,3 +63,4 @@
 #slide-count{
 	color:white;
 }
+*/
