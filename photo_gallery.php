@@ -63,7 +63,7 @@
 			//echo $di . '<br/>';
 			if($filename != '.' && $filename != '..' && $filename){
 				//echo $filename . '<br/>'; //. ' - ' . $file->getSize() . ' bytes <br/>';
-				echo '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-image: url(' . $dir . '/' . $di . ')"></div></div>';
+				echo '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-size:cover; background-image: url(' . $dir . '/' . $di . ')"></div></div>';
 			}
 		}
 	}
@@ -73,12 +73,12 @@
   </div>
   </section>
 
-  <div class="modal fade" tabindex="-1" role="dialog"   aria-labelledby="myLargeModalLabel" id="myModal" aria-hidden="true">
+  <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModal" aria-hidden="true">
     <div class="modal-dialog modal-lg">
+      <div onclick="galleryPrevClick()" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></div>
       <div class="modal-content centered"></div>
+      <div onclick="galleryNextClick()" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></div>
     </div>
-    <div onclick="galleryPrevClick()" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></div>
-    <div onclick="galleryNextClick()" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></div>
   </div>
 
   <?php include('footer.php'); ?>
@@ -122,7 +122,7 @@
       if(bgimage_url == 'undefined' || bgimage_url == '' || typeof(bgimage_url) == 'undefined'){
         return;
       }
-      $(".modal-content").css('background-image', bgimage_url);
+      $("#myModal .modal-content").css('background-image', bgimage_url);
 
       bgimage_url = bgimage_url.replace(/url\((['"])?(.*?)\1\)/gi, '$2')
                         .split(',')[0];
@@ -131,10 +131,10 @@
       if(image.width > window.innerWidth || image.height > window.innerHeight){
         resizeImage(image.width, image.height);  
       } else {
-        $(".modal-content").height(image.height);
-        $(".modal-content").width(image.width);
-        $(".modal-dialog").height(image.height);
-        $(".modal-dialog").width(image.width);
+        $("#myModal .modal-content").height(image.height);
+        $("#myModal .modal-content").width(image.width);
+        $("#myModal .modal-dialog").height(image.height);
+        $("#myModal .modal-dialog").width(image.width);
       }
       
       $("#myModal").modal('show');
@@ -146,10 +146,10 @@
       imgHeight *= ratio;
       imgWidth *= ratio;
 
-      $(".modal-content").height(imgHeight);
-      $(".modal-content").width(imgWidth);
-      $(".modal-dialog").height(imgHeight);
-      $(".modal-dialog").width(imgWidth);
+      $("#myModal .modal-content").height(imgHeight);
+      $("#myModal .modal-content").width(imgWidth);
+      $("#myModal .modal-dialog").height(imgHeight);
+      $("#myModal .modal-dialog").width(imgWidth);
     }
 
     function galleryNextClick(){

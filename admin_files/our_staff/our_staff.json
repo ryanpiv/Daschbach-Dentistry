@@ -1,36 +1,180 @@
 {
-  "staff_section_order": [
+  "0": [
     {
-      "Dental Hygenists": "1",
-      "Dental Assistants": "2",
-      "Office": "3"
+      "1": "Dental Hygenists",
+      "2": "Dental Assistants",
+      "3": "Front Office"
     }
   ],
-  "Dental Hygenists": [
+  "1": [
     {
-      "name": "Maryann Brobst",
-      "title": "Dental Hygenist",
-      "sub_title": "",
-      "image": ""
-    }
-  ],
-  "Dental Assistants": [
-    {
-      "name": "Jane Borisow",
-      "title": "Dental Assistant",
-      "sub_title": "",
-      "image": ""
-    }
-  ],
-  "Office": [
-    {
-      "section": "Office"
+      "section_title": "Dental Hygenists"
     },
     {
-      "name": "Joyce Blattner",
-      "title": "Secretary",
-      "sub_title": "",
-      "image": ""
+      "name": "Lisa",
+      "title": "Dental Hygenist",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Tina",
+      "title": "Dental Hygenist",
+      "image": "terb.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Mattie",
+      "title": "Dental Hygenist",
+      "image": "mgehman.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Nicole",
+      "title": "Dental Hygenist",
+      "image": "nguerrieri.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Chris",
+      "title": "Dental Hygenist",
+      "image": "clage.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Gail",
+      "title": "Dental Hygenist",
+      "image": "gmills.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Janice",
+      "title": "Dental Hygenist",
+      "image": "jmurray.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Gina",
+      "title": "Dental Hygenist",
+      "image": "gsordini.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Linsey",
+      "title": "Dental Hygenist",
+      "image": "lyothers.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Susan",
+      "title": "Dental Hygenist",
+      "image": "szansitis.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Maryann",
+      "title": "Dental Hygenist",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Gail",
+      "title": "Dental Hygenist",
+      "image": "",
+      "bio": ""
+    }
+  ],
+  "2": [
+    {
+      "section_title": "Dental Assistants"
+    },
+    {
+      "name": "Jane",
+      "title": "Dental Assistant",
+      "image": "jborisow.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Jaime",
+      "title": "Dental Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Anna",
+      "title": "Dental Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Sam",
+      "title": "Dental Assistant",
+      "image": "",
+      "bio": ""
+    }
+  ],
+  "3": [
+    {
+      "section_title": "Front Office"
+    },
+    {
+      "name": "Joyce",
+      "title": "Administrative Assistant",
+      "image": "jblattner.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Mandy",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Jan",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Becky",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Sienna",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Lori",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Betsy",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Amy",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Robyn",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Donna",
+      "title": "Administrative Assistant",
+      "image": "",
+      "bio": ""
     }
   ]
 }
