@@ -16,7 +16,7 @@
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">All Services</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Financial and Insurance</a></li>
+                            <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Financial and Insurance</a></li> -->
                         </ul>
                     </a>
                 </li>

@@ -98,7 +98,6 @@
                     <p class="statement-details">Our team adheres to the principle of a working, accurate and truthful diagnosis for each dental procedure.  Our skills are developed to a point that each treatment can be individualized for each specific patient's needs.</p>
                     <p class="statement-details">We expect each team member to deliver patient care to the utmost of their ability, with consistent and driven results under an emphasis on quality.</p>
                     <p class="font-very-heavy statement-details">Enjoy a great smile today.</p>
-                    <span><a class="btn btn-lg btn-primary" href="#" role="button">Read the Rest of our Mission Statement</a></span>
                     </div>
                 </div>
             </div>

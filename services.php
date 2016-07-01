@@ -23,7 +23,7 @@
 
 	<section class="section-services section-content">
         <div class="container">
-            <div class="row btn-all-container">
+            <!-- <div class="row btn-all-container">
                 <div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6 col-xs-6">
                     <button class="btn btn-primary btn-expand-all">View All</button>
                 </div>
@@ -31,6 +31,7 @@
                     <button class="btn btn-primary btn-collapse-all">Hide All</button>
                 </div>
             </div>
+            -->
 
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -111,11 +112,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h3 class="section-services-heading3">Peridontal Services</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingSix">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         Cleanings and Recall Appointments
                                     </a>
                                 </h4>
@@ -129,7 +130,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingSeven">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                         On Staff Periodontist
                                     </a>
                                 </h4>
@@ -143,7 +144,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingEight">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                         Special Services
                                     </a>
                                 </h4>
@@ -158,11 +159,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h3 class="section-services-heading3">Restorative Services</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingNine">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
                                         White Fillings
                                     </a>
                                 </h4>
@@ -176,7 +177,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTen">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                         Silver Fillings
                                     </a>
                                 </h4>
@@ -190,7 +191,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingEleven">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                         White Porcelain Inlays/Onlays
                                     </a>
                                 </h4>
@@ -208,11 +209,11 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <h3 class="section-services-heading3">Prosthetic Services</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwelve">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
                                         Crowns & Caps
                                     </a>
                                 </h4>
@@ -226,7 +227,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingThirteen">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                                         Bridges
                                     </a>
                                 </h4>
@@ -240,7 +241,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingFourteen">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
                                         Partial Dentures
                                     </a>
                                 </h4>
@@ -254,7 +255,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingFifteen">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
                                         Full Dentures
                                     </a>
                                 </h4>
@@ -269,11 +270,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h3 class="section-services-heading3">Veneer & Cosmetic Services</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingSixteen">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion5" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
                                         Bleaching
                                     </a>
                                 </h4>
@@ -287,7 +288,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingSeventeen">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion5" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
                                         Veneers
                                     </a>
                                 </h4>
@@ -302,11 +303,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h3 class="section-services-heading3">Dental Implant Therapy</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel-group" id="accordion6" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingNineteen">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
+                                    <a data-toggle="collapse" data-parent="#accordion6" href="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
                                         Single Tooth Implant
                                     </a>
                                 </h4>
@@ -320,7 +321,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwenty">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion6" href="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
                                         Multiple Teeth Implants
                                     </a>
                                 </h4>
@@ -334,7 +335,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwentyOne">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion6" href="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
                                         Implant Supported Dentures
                                     </a>
                                 </h4>
@@ -352,11 +353,11 @@
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4">
                     <h3 class="section-services-heading3">Pediatrics and Prevention</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel-group" id="accordion7" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwentyTwo">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyTwo" aria-expanded="true" aria-controls="collapseTwentyTwo">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion7" href="#collapseTwentyTwo" aria-expanded="true" aria-controls="collapseTwentyTwo">
                                         Child Dental Services 
                                     </a>
                                 </h4>
@@ -370,7 +371,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwentyThree">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion7" href="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree">
                                         Preventative 
                                     </a>
                                 </h4>
