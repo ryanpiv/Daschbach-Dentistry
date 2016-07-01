@@ -27,8 +27,8 @@
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">New Patient Forms
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
-                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa1Modal">Hippa Form One</a></li>
-                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa2Modal">Hippa Form Two</a></li>
+                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa1Modal">HIPPA Form One</a></li>
+                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa2Modal">HIPPA Form Two</a></li>
                             <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#medHistModal">Medical History Form</a></li>
                             <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#surgModal">Surgical Form</a></li>
                         </ul>
@@ -67,7 +67,7 @@
                         <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Hippa Privacy Form 1</h4>
+                                <h4 class="modal-title" id="myModalLabel">HIPPA Privacy Form 1</h4>
                             </div>
                             <div class="modal-body">
                                 <div>
@@ -97,7 +97,7 @@
                         <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Hippa Privacy Form 2</h4>
+                                <h4 class="modal-title" id="myModalLabel">HIPPA Privacy Form 2</h4>
                             </div>
                             <div class="modal-body">
                                 <div>
