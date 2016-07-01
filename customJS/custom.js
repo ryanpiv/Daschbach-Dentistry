@@ -26,11 +26,11 @@ $(window).resize(function() {
   height = window.innerHeight;
   height = height * .85;
   //$("#displayDiv").css("height", height);
-  $(".modal-content").css("height", height);
+  $(".forms").css("height", height);
 });
 
 $(".formDD").click(function() {
   //debugger;
   //$("#displayDiv").css("height", height);
-  $(".modal-content").css("height", height);
+  $(".forms").css("height", height);
 });

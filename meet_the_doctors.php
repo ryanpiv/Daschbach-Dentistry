@@ -64,7 +64,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-right doctor-bio-img" src="images/bob_resize_small.jpg" />  
+                        <img class="float-right doctor-bio-img" src="images/meet_the_doctors/bob_resize_small.jpg" />  
                         <h3 class="doctor-bio-header">Early Years</h3>
                         Dr. Robert L. Daschbach was born in Pittsburgh, PA. He is the middle child of seven siblings. Dr. Daschbach attended Central High School where he was president of the National Honor Society. Dr. Bob was also a Pennsylvania State Champion in wrestling while in high school. Upon graduation, he was awarded a full scholarship to attend Washington and Jefferson College. 
                         <br/>
@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-left doctor-bio-img-alt" src="images/marie_resize.jpg" />  
+                        <img class="float-left doctor-bio-img-alt" src="images/meet_the_doctors/marie_resize.jpg" />  
                         <h3 class="doctor-bio-header-alt">Early Years</h3>
                         Dr. Marie Groncki was born in Scranton, PA. She has three brothers and one sister. Her father owned a general contracting company and her mom stayed at home. While at Scranton Preparatory High School Dr. Marie earned the women&#39;s tennis state championship and was a member of the National Honor Society.
                         <br/>
@@ -131,7 +131,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-right doctor-bio-img" src="images/maq_resize.jpg" />  
+                        <img class="float-right doctor-bio-img" src="images/meet_the_doctors/maq_resize.jpg" />  
                         <h3 class="doctor-bio-header">Early Years and Education</h3>
                         Dr. Maq Serang was raised in a town off the Oregon coast. He completed his liberal arts education at Linfield College majoring in Biology. 
                         <br/>
@@ -157,7 +157,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-left doctor-bio-img-alt" src="images/scott_resize.jpg" />  
+                        <img class="float-left doctor-bio-img-alt" src="images/meet_the_doctors/scott_resize.jpg" />  
                         <h3 class="doctor-bio-header-alt">Education</h3>
                         Scott A. Gradwell, DMD is a native of the Lehigh Valley and a graduate of Parkland High School. He has resided in the Fogelsville area since 1990. A graduate of Albright College and Temple Dental School, Dr. Gradwell completed a residency in the specialty of Periodontics and Implantology at Temple University. 
                         <br/>
@@ -200,7 +200,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-right doctor-bio-img" src="images/paul_resize.jpg" />  
+                        <img class="float-right doctor-bio-img" src="images/meet_the_doctors/paul_resize.jpg" />  
                         <h3 class="doctor-bio-header">Motivation for Sucess</h3>
                         Practicing orthodontics has meant so much to me because creating a beatiful smile has such a positive impact on my patients' lives. I love to see the changes in my patients personality from the time they walk through the door for their very first visit, being apprehensive and afraid to smile, to the day their braces are removed. They are more confident, have increased self esteem, and can&#45;t wait to show the world their beautiful new smile. 
                         <h3 class="doctor-bio-header">Experience</h3>
@@ -252,7 +252,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-left doctor-bio-img-alt" src="images/sarah.jpg" />  
+                        <img class="float-left doctor-bio-img-alt" src="images/meet_the_doctors/sarah.jpg" />  
                         <h3 class="doctor-bio-header-alt">Early Years</h3>
                         Dr. Sarah Woolcock was raised in Doylestown, PA, where she attended Central Bucks High School West. While there she was a member of the National Honor Society and a member of both the field hockey and basketball teams.
                         <h3 class="doctor-bio-header-alt">Education</h3>

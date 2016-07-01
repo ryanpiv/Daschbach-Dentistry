@@ -61,7 +61,7 @@
                 <!-- Hippa 1 Modal -->
                 <div class="modal fade" id="hippa1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
+                        <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h4 class="modal-title" id="myModalLabel">Hippa Privacy Form 1</h4>
@@ -74,7 +74,9 @@
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Download PDF</button>
+                                <button type="button" class="btn btn-primary">
+                                    <a class="btn-dl" href="forms/HIPPA1.pdf"" download="HIPPA1.pdf">Download PDF</a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -89,7 +91,7 @@
                 <!-- Hippa 2 Modal -->
                 <div class="modal fade" id="hippa2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
+                        <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h4 class="modal-title" id="myModalLabel">Hippa Privacy Form 2</h4>
@@ -102,7 +104,9 @@
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Download PDF</button>
+                                <button type="button" class="btn btn-primary">
+                                    <a class="btn-dl" href="forms/HIPPA2.pdf"" download="HIPPA2.pdf">Download PDF</a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -117,7 +121,7 @@
                 <!-- Medical History Modal -->
                 <div class="modal fade" id="medHistModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
+                        <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h4 class="modal-title" id="myModalLabel">Medical History Form</h4>
@@ -130,7 +134,9 @@
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Download PDF</button>
+                                <button type="button" class="btn btn-primary">
+                                    <a class="btn-dl" href="forms/medicalhistory.pdf"" download="MedicalHistory.pdf">Download PDF</a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -145,7 +151,7 @@
                 <!-- Surgery Modal -->
                 <div class="modal fade" id="surgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
+                        <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h4 class="modal-title" id="myModalLabel">Surgical Form</h4>
@@ -158,7 +164,9 @@
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Download PDF</button>
+                                <button type="button" class="btn btn-primary">
+                                    <a class="btn-dl" href="forms/surgical.pdf" download="SurgicalForm.pdf">Download PDF</a>
+                                </button>
                             </div>
                         </div>
                     </div>

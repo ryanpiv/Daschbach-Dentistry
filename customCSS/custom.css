@@ -62,6 +62,11 @@ section{
 .list-group-item, .panel-body{
 	color:#6E7574;
 }
+/*override styling on anchor tag for download text*/
+.btn-dl{
+	color:white !important;
+	text-decoration: none !important;
+}
 /*body.modal-open {
 	overflow: visible !important;
 }*/
@@ -85,10 +90,20 @@ section{
 }
 
 /*Responsiveness*/
+@media only screen and (min-width : 300px) {
+	.section-main{
+		min-height:35%;
+		padding-top:3%;
+	}
+	.section-main-glyphicon{
+		margin-bottom:20px;
+		margin-top:70px;
+	}
+}
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 	.section-main{
-		min-height:65%;
+		min-height:35%;
 		padding-top:3%;
 	}
 	.section-main-glyphicon{
@@ -99,7 +114,7 @@ section{
 /* Small Devices, Tablets -sm*/
 @media only screen and (min-width : 768px) {
 	.section-main{
-		min-height:50%;
+		min-height:35%;
 		padding-top:3%;
 	}
 	.section-main-glyphicon{
