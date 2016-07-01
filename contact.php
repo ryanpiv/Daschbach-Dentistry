@@ -26,7 +26,7 @@
       <div class="row">
         <div class="glyphicon glyphicon-earphone" aria-hidden="true"></div>
         <h2 class="phone-heading">Phone</h2>
-        <h1 class="phone-number">215-721-8811</h1>
+        <h1 class="phone-number"><a href="tel:215-721-8811">215-721-8811</a></h1>
         <p>24 hour on call service</p>
       </div>
       <h3 class="fax-heading">Fax</h3>

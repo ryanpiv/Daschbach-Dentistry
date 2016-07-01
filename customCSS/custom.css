@@ -67,6 +67,9 @@ section{
 	color:white !important;
 	text-decoration: none !important;
 }
+a{
+	text-decoration: none !important;
+}
 /*body.modal-open {
 	overflow: visible !important;
 }*/
