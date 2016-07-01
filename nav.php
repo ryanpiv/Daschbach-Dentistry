@@ -11,15 +11,18 @@
             </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
+                <li><a href="services.php">Services</a></li>
+                <!--
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu1" data-toggle="dropdown" aria-expanded="true">Services
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">All Services</a></li>
-                            <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Financial and Insurance</a></li> -->
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services.php">Financial and Insurance</a></li> 
                         </ul>
                     </a>
                 </li>
+                -->
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">New Patient Forms
                         <span class="caret"></span>
