@@ -65,7 +65,7 @@
           if(items[i][0].section_title == orderArr[0][y]){
             html = "<div class='row'><h2 class='staff-heading'>" + items[i][0].section_title + "</h2>";
             for(var x = 1; x < items[i].length; x++){
-              html += '<div class="col-lg-2 col-md-3 col-xs-5">';
+              html += '<div class="col-lg-2 col-md-3 col-xs-6">';
               html += '<div onclick=setStaffInfo(this); class="img-container staff-item "'; 
               if(items[i][x].image == ""){
                 html += 'style="background-color:' + getRandomColor() + '" ';
