@@ -78,7 +78,7 @@ legend{
 /* Small Devices, Tablets -sm*/
 @media only screen and (min-width : 768px) {
 	.img-container{
-		height:170px;
+		height:280px;
 	}
 }
 /* Medium Devices, Desktops */
