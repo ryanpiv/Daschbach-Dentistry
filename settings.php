@@ -4,7 +4,8 @@
 <meta property="og:title" content="R.L. Daschbach &amp; Associates" />
 <meta property="og:description" 
   content="Our family of caring doctors and staff concentrate on your family's needs.  Your smile is our reward." />
-<meta property="og:image" content="images/land5.jpg" />
+<meta property="og:image" content="http://rldaschbach.com/images/land5.jpg" />
+<meta property="og:image:secure_url" content="https://rldaschbach.com/images/land5.jpg" />
 <meta property="og:image:width" content="480" />
 <meta property="og:image:height" content="224" />
 
