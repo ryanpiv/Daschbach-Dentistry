@@ -1,5 +1,12 @@
-<title>R.L. Daschbach & Associates</title>
+<title>R.L. Daschbach &amp; Associates</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="R.L. Daschbach &amp; Associates" />
+<meta property="og:description" 
+  content="Our family of caring doctors and staff concentrate on your family's needs.  Your smile is our reward." />
+<meta property="og:image" content="images/land5.jpg" />
+<meta property="og:image:width" content="480" />
+<meta property="og:image:height" content="224" />
 
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
