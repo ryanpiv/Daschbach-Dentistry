@@ -63,3 +63,33 @@
 legend{
 	margin-bottom:0 !important;
 }
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 250px) {
+	.img-container{
+		height:105px;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.img-container{
+		height:170px;
+	}
+}
+/* Small Devices, Tablets -sm*/
+@media only screen and (min-width : 768px) {
+	.img-container{
+		height:170px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.img-container{
+		height:170px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.img-container{
+		height:170px;
+	}
+}
