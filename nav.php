@@ -7,10 +7,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.php" class="navbar-brand">R.L. Daschbach & Associates</a>
+                <a href="index.php" class="navbar-brand">R.L. Daschbach &amp; Associates</a>
             </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
+                <li><a href="mission_statement.php">Mission Statement</a></li>
                 <li><a href="services.php">Services</a></li>
                 <!--
                 <li>
@@ -36,7 +37,7 @@
                 </li>
                 <li><a href="photo_gallery.php">Photo Gallery</a></li>
                 <li>
-                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Our Staff
+                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">About Us
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="meet_the_doctors.php">Meet the Doctors</a></li>
@@ -45,15 +46,18 @@
                     </a>
                 </li>
                 <li><a href="contact.php">Contact</a></li>
-                <li>
+                
+                <li><a href="careers.php">Job Opportunities</a></li>
+                <!-- <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Careers
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="careers.php">Careers</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="careers.php">Openings</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="mission_statement.php">Mission Statement</a></li>
                         </ul>
                     </a>
                 </li>
+                -->
             </ul>
         </div><!--/.nav-collapse -->
     </div>
