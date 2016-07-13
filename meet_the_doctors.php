@@ -125,17 +125,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="doctor-bio-header-alt">Scott A. Gradwell, D.M.D., F.A.G.D.</h1>
+                    <h1 class="doctor-bio-header">Scott A. Gradwell, D.M.D., F.A.G.D.</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-left doctor-bio-img-alt" src="images/meet_the_doctors/scott_resize.jpg" />  
-                        <h3 class="doctor-bio-header-alt">Education</h3>
+                        <img class="float-right doctor-bio-img" src="images/meet_the_doctors/scott_resize.jpg" />  
+                        <h3 class="doctor-bio-header">Education</h3>
                         Scott A. Gradwell, DMD is a native of the Lehigh Valley and a graduate of Parkland High School. He has resided in the Fogelsville area since 1990. A graduate of Albright College and Temple Dental School, Dr. Gradwell completed a residency in the specialty of Periodontics and Implantology at Temple University. 
                         <br/>
-                        <h3 class="doctor-bio-header-alt">Career</h3>
+                        <h3 class="doctor-bio-header">Career</h3>
                         Dr. Gradwell began his career in periodontal practice in 1988, working as a restorative dentist during his residency program. He has maintained his professional relationship with Dr. I. Jay Freedman and Associates for 22 years, transitioning from a restorative dentist to the office&#39;s periodontal and implant surgeon. In Dr. Freedman&#39;s Abington, PA office, state-of-the-art esthetic dentistry is provided in conjunction with dental implant, crown and bridge, esthetic veneers and the treatment of periodontal disease. In 1990, Dr. Gradwell opened his private practice in Allentown. 
                         <br/>
                         <br/>
@@ -145,7 +145,7 @@
                         Teaching is a fundamental love of Dr. Gradwell&#39;s. He is on staff at the Lehigh Valley Hospital where he volunteers one day a month working with the dental residents in the dental clinic. He also is a part of the teaching team for the dental residents, which involves lecturing several times a year. 
                         <br/>
                         <br/>
-                        <h3 class="doctor-bio-header-alt">Accomplishments</h3>
+                        <h3 class="doctor-bio-header">Accomplishments</h3>
                         <div class="panel panel-info">
                             <div class="panel-body scott-panel-body">
                                 <ul class="list-group list-scott-accomplishments">
@@ -156,7 +156,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <h3 class="doctor-bio-header-alt">Other Interests</h3>
+                        <h3 class="doctor-bio-header">Other Interests</h3>
                         When Dr. Gradwell is not in the office, he enjoys spending time with his three children, Ashley, Sean, and Lauren. He actively pursues his spirituality for balance in his life. His church family is First Presbyterian Church of Allentown. He was a 4th grade Sunday School teacher for 15 years. As an Eagle Scout, Dr. Gradwell is committed to community service. He is a contributor to the local 4H programs with a personal interest in sheep farming. He recently completed the renovation and restoration of a 10 acre farming property in Fogelsville, PA. He is committed to learning and implementing organic gardening on his farm.
                     </p>
                 </div>
@@ -168,21 +168,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="doctor-bio-header">Paul J. Adams, D.M.D.</h1>
+                    <h1 class="doctor-bio-header-alt">Paul J. Adams, D.M.D.</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-right doctor-bio-img" src="images/meet_the_doctors/paul_resize.jpg" />  
-                        <h3 class="doctor-bio-header">Motivation for Sucess</h3>
+                        <img class="float-left doctor-bio-img-alt" src="images/meet_the_doctors/paul_resize.jpg" />  
+                        <h3 class="doctor-bio-header-alt">Motivation for Sucess</h3>
                         Practicing orthodontics has meant so much to me because creating a beatiful smile has such a positive impact on my patients' lives. I love to see the changes in my patients personality from the time they walk through the door for their very first visit, being apprehensive and afraid to smile, to the day their braces are removed. They are more confident, have increased self esteem, and can&#45;t wait to show the world their beautiful new smile. 
-                        <h3 class="doctor-bio-header">Experience</h3>
+                        <h3 class="doctor-bio-header-alt">Experience</h3>
                         I am an active member of the teaching staff at Albert Einstein Medical Center&#39;s Department of Dental Medicine, where I teach orthodontic practice and theory to graduate orthodontic residents. Through my experience in general dentistry, teaching orthodontics, and love of continuing education, I am able to offer my patients the most modern up-to-date approach to their care. 
                         <br/>
                         <br/>
                         I have been a Certified Invisalign&#174; Provider for many years and have incorporated this technology in order to give my patients an alternative to fixed, traditional braces. I have also added laser technology to my practice, which allows me to perform many simple orthodontic procedures comfortably and conveniently, and I am certified by the World Clinical Laser Institute in soft tissue surgical and periodontal applications. 
-                        <h3 class="doctor-bio-header">Education</h3>
+                        <h3 class="doctor-bio-header-alt">Education</h3>
                         <div class="panel paul-panel-info panel-info">
                             <div class="panel-body paul-panel-body">
                                 <ul class="list-group list-scott-accomplishments">
@@ -193,7 +193,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <h3 class="doctor-bio-header">Professional Memberships</h3>
+                        <h3 class="doctor-bio-header-alt">Professional Memberships</h3>
                         <div class="panel panel-info">
                             <div class="panel-body paul-panel-body">
                                 <ul class="list-group list-scott-accomplishments">
@@ -208,7 +208,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <h3 class="doctor-bio-header">Outside of the Office</h3>
+                        <h3 class="doctor-bio-header-alt">Outside of the Office</h3>
                         I am a native of Harvey's Lake in northeast Pennsylvania and have lived in Doylestown since 1996. I enjoy spending time outdoors and love to ski. I have recently started cross-country skiing and I am training for my next triathalon. I also enjoy going to Phillies and Eagles games to root for the home team.
                     </p>
                 </div>
@@ -220,23 +220,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="doctor-bio-header-alt">Sarah R. Woolcock, D.M.D.</h1>
+                    <h1 class="doctor-bio-header">Sarah R. Woolcock, D.M.D.</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        <img class="float-left doctor-bio-img-alt" src="images/meet_the_doctors/sarah.jpg" />  
-                        <h3 class="doctor-bio-header-alt">Early Years</h3>
+                        <img class="float-right doctor-bio-img" src="images/meet_the_doctors/sarah.jpg" />  
+                        <h3 class="doctor-bio-header">Early Years</h3>
                         Dr. Sarah Woolcock was raised in Doylestown, PA, where she attended Central Bucks High School West. While there she was a member of the National Honor Society and a member of both the field hockey and basketball teams.
-                        <h3 class="doctor-bio-header-alt">Education</h3>
+                        <h3 class="doctor-bio-header">Education</h3>
                         Dr. Sarah continued her education at the University of Pittsburgh where she was a member of the women's lacrosse team. She graduated with a Bachelor of Science degree in Biology and Minors in both Chemistry and Studio Arts.  
                         <br/>
                         <br/>
-                        Upon completion of her undergraduate studies, Dr. Sarah was accepted at Temple University School of Dentistry, where she was her senior class representative. Dr. Sarah continued to cultivate her interest in restorative dentistry and oral surgery by completing a one-year general practice residency at New York Presbyterian Hospital &#45; Columbia Medical Center. After completing her residency in New York she accepted a prestigious two-year internship at Drexel University. While there she practiced at both Hahnemann University Hospital and St. Christopher&#39;s Hospital for Children where she mastered her technique in Oral & Maxillofacial Surgery. 
-                        <h3 class="doctor-bio-header-alt">Career</h3>
+                        Upon completion of her undergraduate studies, Dr. Sarah was accepted at Temple University School of Dentistry, where she was her senior class representative. Dr. Sarah continued to cultivate her interest in restorative dentistry and oral surgery by completing a one-year general practice residency at New York Presbyterian Hospital &#45; Columbia Medical Center. After completing her residency in New York she accepted a prestigious two-year internship at Drexel University. While there she practiced at both Hahnemann University Hospital and St. Christopher&#39;s Hospital for Children where she mastered her technique in Oral &amp; Maxillofacial Surgery. 
+                        <h3 class="doctor-bio-header">Career</h3>
                         Dr. Sarah has been involved with several mission trips to Guatemala since 2000. She is currently working with a Christian organization called &#8220;Sharing the Journey International&#8221;, which provides surgical, medical, dental and humanitarian aid to families in Guatemala. 
-                        <h3 class="doctor-bio-header-alt">Outside of Work</h3>
+                        <h3 class="doctor-bio-header">Outside of Work</h3>
                         Dr Sarah is active within her church. She enjoys the outdoors and traveling. In her free time, she also likes to paint and sketch.
                     </p>
                 </div>
