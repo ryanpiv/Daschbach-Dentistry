@@ -1,4 +1,4 @@
-<div class="footer-adjust"></div>
+<!-- <div class="footer-adjust"></div> -->
 <footer class="footer section-content">
     <div class="container">
         <p class="footer-text">"I can do everything through him who gives me strength."</p>
@@ -12,7 +12,8 @@
 <script>
 	Pace.on("done", function () {
 		$("section").css('display', 'block');
-		$(".vegas-overlay").css('display', 'block');
+		$(".footer").css('display', 'block');
+		//$(".vegas-overlay").css('display', 'block');
 		$('#Container-mix').mixItUp();
 		try{
 			initGoogleMap();
