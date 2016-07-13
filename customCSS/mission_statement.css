@@ -23,16 +23,66 @@
 	font-size: 18px;
 	font-family: sans-serif;
 }
+.section-statement-content .row h3{
+	color: #e6af4b;
+}
+
 /*bootstrap overrides*/
 .list-group-item{
-    margin-top: 10px !important;
     border-radius: 5px !important;
-    background-color: #f3f3f3 !important; 
 }
-.badge{
-	float:left !important;
-	background-color: #ababab !important;
+h3{
+	padding-bottom: 15px;
 }
+
+/*Responsiveness*/
+@media only screen and (max-width : 300px) {
+	.col-border_bot {
+		border-bottom: 1px solid #ccc;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.col-border_bottom {
+		border-bottom: 1px solid #ccc;
+	}
+}
+/* Small Devices, Tablets -sm*/
+@media only screen and (max-width : 768px) {
+	.col-border_bottom {
+		border-bottom: 1px solid #ccc;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.col-border_bottom {
+		border-bottom: 1px solid #ccc;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 993px) {
+	.col-border_bottom {
+		border-bottom: 1px solid #ccc;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.col-border_bottom {
+		border-bottom: none;
+	}
+	.row-border_bottom{
+		border-bottom: 1px solid #ccc;
+	}	
+}
+@media only screen and (min-width : 1300px) {
+	.col-xs-12 {
+		border-bottom: none;
+	}
+	.row-border_bottom{
+		border-bottom: 1px solid #ccc;
+	}	
+}
+
 
 /*vegas overrides*/
 /*

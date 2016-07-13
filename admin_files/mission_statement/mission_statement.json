@@ -1,25 +1,40 @@
 {
   "mission_statement": [
     {
-      "0": "We adhere to the principle of developing a working diagnosis, both accurate and truthful for each dental procedure."
+      "0": "We strictly adhere to the principle of developing a working diagnosis, both accurate and truthful for each dental procedure."
     },
     {
-      "1": "We strive to develop our own skills to a point that treatment can be individualized."
+      "1": "We strive to develop our own skills to a point that treatment can be individualized.  Presented as a list of options to each patient in lieu of a pre-set treatment plan."
     },
     {
-      "2": "We present a list of options to each patient in lieu of a pre-set treatment plan."
+      "2": "We expect each team member to deliver patient care to the utmost of their ability, with regularly consistent successful results with emphasis on quality in lieu of quantity."
     },
     {
-      "3": "We expect each team member to deliver patient care to the utmost of their ability, with regularly consistent successful results with emphasis on quality in lieu of quantity."
+      "3": "We appreciate learning to be continual and to be a shared expression of genuine concern for the mutual development of skills."
     },
     {
-      "4": "We appreciate learning to be continual and to be a shared expression of genuine concern for the mutual development of skills."
+      "4": "In my practice of dentistry, I believe that I am responsible to give back to the local community at large and so giving is woven into the fabric of the practice itself."
     },
     {
-      "5": "We take the position that we are a teaching institution; concentrating on but not limited to the development of dental assistants and others who wish to make dentistry their career choice."
+      "5" : "There are several levels of giving:",
+      "subset" : {
+        "5.1" : "The most common is a reduced fee for services.",
+        "5.2" : "The second is the delivery of free services with-in a single visit.",
+        "5.3" : "The third is a free will offering of multiple to accomplish a goal.",
+        "5.4" : "Fourth and on, a sacrificed level is the decision to treat the poor.",
+        "5.5" : "Examples",
+        "subset" : {
+          "5.2.1" : "Donated Dental Service",
+          "5.2.2" : "Missionary of the Month",
+          "5.2.3" : "Outreach to referred poor"
+        }
+      }
     },
     {
-      "6": "It is my desire to develop and maintain a team of dental professionals who wish to serve a higher calling by lending their talents to a team effort under these mission statements."
+      "6" : "Fifth and on, an extended outreach level is the reception of a free clinic in Honduras, which we developed through the MAMA group."
+    },
+    {
+      "7" : "Corporately, each member of this office contributes to these acts of giving as they efficiently follow their job descriptions."
     }
   ]
 }
