@@ -69,10 +69,10 @@
                         Dr. Robert L. Daschbach was born in Pittsburgh, PA. He is the middle child of seven siblings. Dr. Daschbach attended Central High School where he was president of the National Honor Society. Dr. Bob was also a Pennsylvania State Champion in wrestling while in high school. Upon graduation, he was awarded a full scholarship to attend Washington and Jefferson College. 
                         <br/>
                         <br/>
-                        An accomplished wrestler, Dr. Bob was Washington & Jefferson&#39;s first wrestler to become a NCAA All-American, earning a 5th place National Title at the Division III Level in 1975. He graduated with a Bachelor of Science Degree in Psychology/Biology from Washington & Jefferson College in 1978. 
+                        An accomplished wrestler, Dr. Bob was Washington and Jefferson&#39;s first wrestler to become a NCAA All-American, earning a 5th place National Title at the Division III Level in 1975. He graduated with a Bachelor of Science Degree in Psychology/Biology from Washington and Jefferson College in 1978. 
                         <br/>
                         <h3 class="doctor-bio-header">Education</h3>
-                        Upon graduation from Washington & Jefferson, Dr. Bob was accepted into Temple University School of Dentistry. While attending dental school Dr. Bob received high honors in both Oral Surgery and Crown & Bridge. In addition, Dr. Bob worked in the Psychology Department at Temple in the area of Dental Fear. On the weekends he was just as busy teaching racquetball! Dr. Daschbach graduated from Temple University School of Dentistry in 1982.
+                        Upon graduation from Washington and Jefferson, Dr. Bob was accepted into Temple University School of Dentistry. While attending dental school Dr. Bob received high honors in both Oral Surgery and Crown and Bridge. In addition, Dr. Bob worked in the Psychology Department at Temple in the area of Dental Fear. On the weekends he was just as busy teaching racquetball! Dr. Daschbach graduated from Temple University School of Dentistry in 1982.
                         <h3 class="doctor-bio-header">Bob and Donna</h3>
                         After dental school Dr. Bob was awarded a dental residency at Mercy Suburban Hospital in Norristown, PA. While doing his residency there, he met his wife Donna at the hospital after she had been in a car accident. They were married in October 1983. 
                         <br/>
@@ -82,7 +82,7 @@
                         In the next years to follow Dr. Bob earned his Fellowship Degree in general dentistry and is currently working on his Mastership&#39;s Degree. Dr. Bob is very interested in dental education, and loves taking new courses, which help him provide his patients with the most up to date procedures and cutting edge technology. 
                         <br/>
                         <br/>
-                        Dr. Bob is very active in the community and with his church. Outside the office he can be found skiing, biking, golfing & playing racquetball!
+                        Dr. Bob is very active in the community and with his church.  Under the Mama project Dr. Bob set up dental clinics in Honduras and, utilizing a dental van, helped the underserved in the city of Philadelphia.  Outside the office he can be found playing with his Grandchildren.
                     </p>
                 </div>
             </div>
@@ -115,32 +115,6 @@
                         Dr. Marie joined Daschbach and Associates in 1996, working full-time and enjoying the area and patients tremendously. She can also be found volunteering for local school doing dental exams for children and assisting Dr. Bob with the dental mission projects. 
                         <h3 class="doctor-bio-header-alt">Today</h3>
                         When away from work Dr. Marie enjoys spending time with her husband Frank and has a very large wonderful cat named Princess. She enjoys bible study and being involved with the local church community. She and her husband both enjoy traveling, exercise, tennis, and skiing. Family is very important to both of them so they can be found spending time with their nine siblings and ten nieces and nephews.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-about section-content section-doctor-three">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="doctor-bio-header">Maq A. Serang, D.M.D.</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>
-                        <img class="float-right doctor-bio-img" src="images/meet_the_doctors/maq_resize.jpg" />  
-                        <h3 class="doctor-bio-header">Early Years and Education</h3>
-                        Dr. Maq Serang was raised in a town off the Oregon coast. He completed his liberal arts education at Linfield College majoring in Biology. 
-                        <br/>
-                        <br/>
-                        After this he worked for a non-for-profit organization called Operation Smile as a Medical Missions Coordinator. Through this he coordinated large volunteer groups to provide cleft lip and palate surgeries in underdeveloped countries including Ecuador, Honduras, Brazil, Romania, Vietnam, and Cambodia. After this experience Dr. Serang pursued his doctorate education at Temple University School of Dentistry. Upon graduation he was accepted into General Practice Residency at Virtua Health in South Jersey. He currently enjoys taking continuing education courses and is a member of the Academy of General Dentistry and working towards a Fellowship. 
-                        <h3 class="doctor-bio-header">Work</h3>
-                        Dr. Maq joined our staff in 2008 after finding out about Dr. Daschbach’s involvement in missionary trips to Honduras. He has joined Dr. Bob in his trips to Honduras and has enjoyed the opportunity to do missionary work with our staff. 
-                        <h3 class="doctor-bio-header">Interests</h3>
-                        When Dr. Serang enjoys spending time with his wife Char and playing with his son Evan. As well as finding new fix-it projects on his old home. He enjoys biking, running, swimming and surfing waves on the Jersey Shore when the weather allows it. He also enjoys being involved in his local church community as well as serving on medical mission trips overseas.
                     </p>
                 </div>
             </div>
