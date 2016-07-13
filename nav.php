@@ -36,7 +36,7 @@
                         </ul>
                     </a>
                 </li>
-                <li><a href="photo_gallery">Photo Gallery</a></li>
+                <li><a href="photo_gallery.php">Photo Gallery</a></li>
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">About Us
                         <span class="caret"></span>
