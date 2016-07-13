@@ -121,7 +121,7 @@
         </div>
     </section>
 
-    <section class="section-about-alt section-content section-doctor-four">
+    <section class="section-about section-content section-doctor-four">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -164,7 +164,7 @@
         </div>
     </section>
 
-    <section class="section-about section-content section-doctor-five">
+    <section class="section-about-alt section-content section-doctor-five">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -216,7 +216,7 @@
         </div>
     </section>
 
-    <section class="section-about-alt section-content section-doctor-six">
+    <section class="section-about section-content section-doctor-six">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
