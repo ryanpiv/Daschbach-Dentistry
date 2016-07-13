@@ -7,12 +7,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index" class="navbar-brand">R.L. Daschbach &amp; Associates</a>
+                <a href="index.php" class="navbar-brand">R.L. Daschbach &amp; Associates</a>
             </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="mission_statement">Mission Statement</a></li>
-                <li><a href="services">Services</a></li>
+                <li><a href="mission_statement.php">Mission Statement</a></li>
+                <li><a href="services.php">Services</a></li>
                 <!--
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu1" data-toggle="dropdown" aria-expanded="true">Services
@@ -41,14 +41,14 @@
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">About Us
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="meet_the_doctors">Meet the Doctors</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="our_staff">Our Staff</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="meet_the_doctors.php">Meet the Doctors</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="our_staff.php">Our Staff</a></li>
                         </ul>
                     </a>
                 </li>
-                <li><a href="contact">Contact &amp; Directions</a></li>
+                <li><a href="contact.php">Contact &amp; Directions</a></li>
                 
-                <li><a href="careers">Job Opportunities</a></li>
+                <li><a href="careers.php">Job Opportunities</a></li>
                 <!-- <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Careers
                         <span class="caret"></span>
