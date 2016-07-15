@@ -1,3 +1,13 @@
+<?php
+session_start();
+if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+    //echo "Welcome to the member's area, " . $_SESSION['FirstName'] . "!";
+} else {
+    header('Location: login.php');
+}
+
+?>
+
 <html>
 <head>
     <link href="../customCSS/careers.css" rel="stylesheet" type="text/css" />
@@ -6,6 +16,8 @@
 
 <body>
     <?php include('../nav.php'); ?>
+
+
 
     <section class="section-careers-main section-main">
     	<div class="container">
@@ -177,7 +189,7 @@
     </section>
 
 
-    <?php include('../footer.php'); ?>
+    <?php include('admin_footer.php'); ?>
 
     <script>
         var id;
