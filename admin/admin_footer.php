@@ -1,4 +1,4 @@
-<div class="footer-adjust"></div>
+<!-- <div class="footer-adjust"></div> -->
 <footer class="footer section-content">
     <div class="container">
         <p class="footer-text">"I can do everything through him who gives me strength."</p>
@@ -7,7 +7,7 @@
     </div>
 </footer>
 <!-- Scripts -->
-<script src="customJS/custom.js" type="text/javascript"></script>
+<script src="../customJS/custom.js" type="text/javascript"></script>
 
 <script>
 	Pace.on("done", function () {

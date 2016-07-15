@@ -67,3 +67,27 @@
 		min-height:35%;
 	}
 }
+
+.col-input {
+	margin-bottom:5px;
+}
+.btn-add-row{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btn-remove-current, .btn-clear-current{
+	margin-right:5px;
+}
+.btn-float-right{
+	float:right;
+}
+.btn-float-left{
+	float:left;
+}
+#row-new-position{
+	display: none;
+}
+.input-error{
+	border:1px solid red;
+	border-radius:5px;
+}
