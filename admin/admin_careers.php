@@ -124,7 +124,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
                                     <span class="input-group-addon" id="title">Title</span> 
                                     <input id="input-title" class="form-control" placeholder="Dental Hygenist" aria-describedby="title" onkeydown="removeError(this)">
                                 </div>
-                            </div>`
+                            </div>
                             <div class="col-input col-lg-3">
                                 <div class="input-group">
                                     <span class="input-group-addon" id="type">Type</span> 
