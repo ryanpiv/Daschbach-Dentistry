@@ -1,3 +1,6 @@
+<a href="logout.php" class="btn btn-danger btn-sm" style="z-index:10000; bottom:0; right:0; position:fixed">Logout</a>
+
+
 <!-- <div class="footer-adjust"></div> -->
 <footer class="footer section-content">
     <div class="container">
@@ -6,6 +9,7 @@
         <p>- Philippians 4:3</p>
     </div>
 </footer>
+
 <!-- Scripts -->
 <script src="../customJS/custom.js" type="text/javascript"></script>
 
@@ -20,4 +24,13 @@
 		} catch(err) { console.log(err); }
 		
 	});
+</script>
+
+<script>
+window.onbeforeunload = function (e) {
+   e.preventDefault(); //Not even sure what the default action does, but oh well
+   ajax = new XMLHttpRequest();
+   ajax.open("killsession.php","POST",true);
+   ajax.send(); 
+}
 </script>
