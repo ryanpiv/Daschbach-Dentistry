@@ -88,7 +88,7 @@
           <h2 class="contact-info-heading">Address</h2>
           <legend></legend>
           <p class="contact-address"><a target="_blank" href="https://www.google.com/maps/place/390+Harleysville+Pike,+Souderton,+PA+18964/@40.3153595,-75.3337482,17z/data=!3m1!4b1!4m2!3m1!1s0x89c6a024479ca3cd:0x9b3eb5a30a3e87e9?hl=en">Dr. Robert L. Daschbach D.D.S.<br/>390 Harleysville Pike<br/>Souderton PA 18964</a></p>
-          <p>Off of Godshall road across from Bergey’s Car dealership.</p>
+          <p>Off of Godshall road across from Bergey&#39;s Car dealership.</p>
         </div>
       </div>
     </div>

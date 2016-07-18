@@ -37,7 +37,9 @@
 	foreach($iterator as $file) {
     if($file->isDir()) {
     	if($file->getFilename() != "." && $file->getFilename() != ".."){
-    		echo "<button class='filter btn btn-primary' data-filter='.category-" . "$count'" . '>' . $file->getFilename(), PHP_EOL . "</button>";
+    		$new_fileName = $file->getFilename();
+    		$new_fileName = substr_replace($new_fileName, '', 0, 2);
+    		echo "<button class='filter btn btn-primary' data-filter='.category-" . "$count'" . '>' . $new_fileName, PHP_EOL . "</button>";
     		//array_push($dirArray, $file->getFilename());
     		$dirArray[$count] = $file->getFilename();
     		$count++;
@@ -63,7 +65,14 @@
 			//echo $di . '<br/>';
 			if($filename != '.' && $filename != '..' && $filename){
 				//echo $filename . '<br/>'; //. ' - ' . $file->getSize() . ' bytes <br/>';
-				echo '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-size:cover; background-image: url(' . $dir . '/' . $di . ')"></div></div>';
+				$dir_spaces = str_replace(' ', '%20', $dir);
+				$dir_spaces = str_replace('(', '%28', $dir_spaces);
+				$dir_spaces = str_replace(')', '%29', $dir_spaces);
+
+				$img_spaces = str_replace(' ', '%20', $di);
+				$img_spaces = str_replace('(', '%28', $img_spaces);
+				$img_spaces = str_replace(')', '%29', $img_spaces);
+				echo '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-size:cover; background-image: url(' . $dir_spaces . '/' . $img_spaces . ')"></div></div>';
 			}
 		}
 	}
