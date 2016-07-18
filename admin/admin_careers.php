@@ -265,13 +265,15 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
                     json += '"type" : "' + $('#input-experience').val() + '", ';
                     json += '"experience" : "' + $('#input-location').val() + '", ';
                     json += '"summary" : "' + $('#txtarea-summary').val() + '", ';
+
                     //lists
+                    $('.btn-remove-list-item').remove();
                     if($('.list-requirements').children()){ 
                         var reqItems = $('.list-requirements').children();
                         json += '"requirements" : { '
-                        for(var i = 0; i < reqItems.length; i++){
-                            json += '"' + i + '" : "' + reqItems[i].innerText + '"';
-                            if(i + 1 < reqItems.length) {
+                        for(var i = 1; i < reqItems.length + 1; i++){
+                            json += '"' + i + '" : "' + reqItems[i-1].innerText + '"';
+                            if(i < reqItems.length) {
                                 json += ', ';
                             }
                         }
@@ -283,9 +285,9 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
                     if($('.list-responsibilities').children()){ 
                         var reqItems = $('.list-responsibilities').children();
                         json += '"responsibilities" : { '
-                        for(var i = 0; i < reqItems.length; i++){
-                            json += '"' + i + '" : "' + reqItems[i].innerText + '"';
-                            if(i + 1 < reqItems.length) {
+                        for(var i = 1; i < reqItems.length + 1; i++){
+                            json += '"' + i + '" : "' + reqItems[i-1].innerText + '"';
+                            if(i < reqItems.length) {
                                 json += ', ';
                             }
                         }
