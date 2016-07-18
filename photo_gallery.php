@@ -72,7 +72,7 @@
 				$img_spaces = str_replace(' ', '%20', $di);
 				$img_spaces = str_replace('(', '%28', $img_spaces);
 				$img_spaces = str_replace(')', '%29', $img_spaces);
-				echo '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-size:cover; background-image: url(' . $dir_spaces . '/' . $img_spaces . ')"></div></div>';
+				echo '<div class="img-raised col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-size:cover; background-image: url(' . $dir_spaces . '/' . $img_spaces . ')"></div></div>';
 			}
 		}
 	}

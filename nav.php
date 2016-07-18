@@ -42,7 +42,7 @@
         </div><!--/.nav-collapse -->
     </div>
 
-    <div class="container">
+    <div class="container modal-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12">
                 <!-- Hippa 1 Modal -->
@@ -72,7 +72,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container modal-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12">
                 <!-- Hippa 2 Modal -->
@@ -102,7 +102,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container modal-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12">
                 <!-- Medical History Modal -->
@@ -132,7 +132,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container modal-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12">
                 <!-- Surgery Modal -->
@@ -162,7 +162,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container modal-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12">
                 <!-- Surgery Modal -->
