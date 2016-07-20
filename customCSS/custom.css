@@ -131,6 +131,9 @@ a{
 .dropdown-menu > li:hover{
 	cursor: pointer;
 }
+.navbar-nav > li:hover{
+	cursor: pointer;
+}
 .nav-spacer{
 	position: relative;
     min-height: 50px;
