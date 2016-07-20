@@ -59,22 +59,23 @@
 		//echo($dirArray[$i]);
 		$dir = "images/gallery/" . "$dirArray[$i]";
 		//echo $dir . "<br />";
+    $files = scandir($dir);
+    natsort($files);
+    //echo "<br />" . print_r(array_values($files));
+    foreach($files as $filename){
+      if($filename != '.' && $filename != '..' && $filename){
+        //echo $filename . '<br/>'; //. ' - ' . $file->getSize() . ' bytes <br/>';
+        $dir_spaces = str_replace(' ', '%20', $dir);
+        $dir_spaces = str_replace('(', '%28', $dir_spaces);
+        $dir_spaces = str_replace(')', '%29', $dir_spaces);
 
-		$di = new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS);
-		foreach (new RecursiveIteratorIterator($di) as $filename => $file) {
-			//echo $di . '<br/>';
-			if($filename != '.' && $filename != '..' && $filename){
-				//echo $filename . '<br/>'; //. ' - ' . $file->getSize() . ' bytes <br/>';
-				$dir_spaces = str_replace(' ', '%20', $dir);
-				$dir_spaces = str_replace('(', '%28', $dir_spaces);
-				$dir_spaces = str_replace(')', '%29', $dir_spaces);
-
-				$img_spaces = str_replace(' ', '%20', $di);
-				$img_spaces = str_replace('(', '%28', $img_spaces);
-				$img_spaces = str_replace(')', '%29', $img_spaces);
-				echo '<div class="img-raised col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-size:cover; background-image: url(' . $dir_spaces . '/' . $img_spaces . ')"></div></div>';
-			}
-		}
+        $img_spaces = str_replace(' ', '%20', $filename);
+        $img_spaces = str_replace('(', '%28', $img_spaces);
+        $img_spaces = str_replace(')', '%29', $img_spaces);
+        echo '<div class="img-raised col-lg-3 col-md-4 col-sm-6 col-xs-6 mix category-' . $i . ' " style="margin-bottom:1%"><div class="mix-item" style="background-size:cover; background-image: url(' . $dir_spaces . '/' . $img_spaces . ')"></div></div>';
+        //echo '<script>alert("' . $di . '");</script>';
+      }
+    }
 	}
 	
 	
