@@ -11,7 +11,6 @@
             </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="mission_statement.php">Mission Statement</a></li>
                 <li><a href="services.php">Services</a></li>
                 <li class="formDD" role="presentation"><a data-toggle="modal" data-target="#financialModal">Financial</a></li>
                 <li>
@@ -37,7 +36,15 @@
                     </a>
                 </li>
                 <li><a href="contact.php">Contact &amp; Directions</a></li>
-                <li><a href="careers.php">Job Opportunities</a></li>
+                <li>
+                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Job Opportunities
+                        <span class="caret"></span>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="careers.php">Open Positions</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="mission_statement.php">Mission Statement</a></li>
+                        </ul>
+                    </a>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
