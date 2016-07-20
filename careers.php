@@ -29,8 +29,10 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<h2 class="h2-careers-positions">Open Positions</h2>
-                    <small>Click the job titles to learn more about the positions listed below.</small>
+                    
+                    <p>All positions listed are subject to the terms provided in the <a href="careers.php">Mission Statement.</a></p>
                     <legend></legend>
+                    <small>Click the job titles to learn more about the positions listed below.</small>
 					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<?php
 					$json = file_get_contents('admin_files/careers/careers.json');
