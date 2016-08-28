@@ -32,7 +32,6 @@
                     
                     <p>All positions listed are subject to the terms provided in the <a href="careers.php">Mission Statement.</a></p>
                     <legend></legend>
-                    <small>Click the job titles to learn more about the positions listed below.</small>
 					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<?php
 					$json = file_get_contents('admin_files/careers/careers.json');
@@ -91,6 +90,9 @@
                         echo '</div></div></div>';
 
                         $careersCount++;
+                    }
+                    if($careersCount == 0){
+                        echo '<small>No positions are currently listed.</small>';
                     }
 					?>
 				</div>

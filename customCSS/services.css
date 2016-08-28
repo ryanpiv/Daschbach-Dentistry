@@ -5,6 +5,9 @@
     color: white;
     text-align: center;
 }
+.section-services{
+	padding-top:20px;
+}
 .btn-collapse-all{
 	float: left;
 }
@@ -14,4 +17,12 @@
 .btn-all-container{
 	margin-top:1%;
 	margin-bottom: 1%
+}
+@media (min-width: 992px) {
+	.row, .row>.col-lg-4, .row>.col-md-4, .row>.col-lg-6, .row>.col-md-6{
+		display: flex;
+	}
+	.panel{
+		align-items: stretch;
+	}
 }
