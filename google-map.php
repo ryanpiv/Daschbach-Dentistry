@@ -16,7 +16,7 @@
 </script>
 <!-- <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script> -->
 
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBhIB6DjJMGqPXiPyH06J2x_aO9IRJ5-U0"></script>
 <script type="text/javascript">
 //<![CDATA[
 var geocoder = new google.maps.Geocoder();
