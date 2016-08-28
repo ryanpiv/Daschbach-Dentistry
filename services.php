@@ -9,430 +9,167 @@
 
     <section class="section-services-main section-main">
         <div class="container container-fill-width">
-            <div class="row">
-                <div class="glyphicon glyphicon-wrench section-main-glyphicon" aria-hidden="true"></div><br />
-                <h1 class="section-main-header section-gallery-main-header">
-                    Our Services.
-                </h1>
-                <p>
-                    We offer a variety of dental services to accomidate our patients the best we can.
-                </p>
-            </div>
+            <div class="glyphicon glyphicon-wrench section-main-glyphicon" aria-hidden="true"></div><br />
+            <h1 class="section-main-header section-gallery-main-header">
+                Our Services.
+            </h1>
+            <p>
+                We offer a variety of dental services to accomidate our patients the best we can.
+            </p>
         </div>
     </section>
 
 	<section class="section-services section-content">
         <div class="container">
-            <!-- <div class="row btn-all-container">
-                <div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6 col-xs-6">
-                    <button class="btn btn-primary btn-expand-all">View All</button>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <button class="btn btn-primary btn-collapse-all">Hide All</button>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Emergency</h2></div>
+                        <div class="panel-body">
+                            <h3>We are available 24 hours a day, 7 days a week for emergency services.  This includes:</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <h3>Trauma</h3>
+                                    <h4>Time can be of the essence when an accident or infection has occurred involving a tooth. </h4>
+                                </li>
+                                <li class="list-group-item">
+                                    <h3>Infection</h3>
+                                    <h4>Severe swelling and pain sometimes accompanied by fever can be a sign of infection that requires assessment.</h4><h4>Our on-call services are committed to helping you with the process from evaluation to timely treatment.</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Restorative</h2></div>
+                        <div class="panel-body">
+                            <h4>We provide the best functional and cosmetic 
+                                materials available for these procedures.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <h3 class="section-services-heading3">Emergency Services</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        24 Hour On-Call Service
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    Timely response to your calls for dental emergencies.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Root Canal/Pupl Therapy
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    Treating the source of the pain, like the nerve of the tooth, can immediately relieve patients of pain.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Non-complicated Extractions and simple oral surgery
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    Sometimes finances or the condition of the tooth results in the decision to have the tooth removed. 
-                                    <br/>We do provide this service for non-complicated cases and refer to quality oral surgeons for the more complicated ones.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Trauma Triage and Palliative Treatment
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                <div class="panel-body">
-                                    Time can be of the essence when you are involved in an accident involving your mouth. Our on-call services are committed to serving you through this process from evaluation to receiving timely treatment.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFive">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Infection/Pain Management 
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                                <div class="panel-body">
-                                    When you have pain and a swelling there is no time to waste. We are committed to helping you throughout the process and can refer you to the proper medical professionals if your problem is beyond the scope of our practice.
-                                </div>
-                            </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Crowns</h2></div>
+                        <div class="panel-body">
+                            <h4>Coverage of a tooth that is severely cracked, broken, or decayed.
+                            </h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <h3 class="section-services-heading3">Peridontal Services</h3>
-                    <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingSix">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        Cleanings and Recall Appointments
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                                <div class="panel-body">
-                                    Appointments are available.  We have 8 hygienist giving us a total of 130 years of hygiene experience.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingSeven">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                        On Staff Periodontist
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-                                <div class="panel-body">
-                                    For treatment of moderate to severe gum disease and to perform necessary gum-related surgeries, etc.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingEight">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                        Special Services
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-                                <div class="panel-body">
-                                    Antibiotic therapy, deep cleanings, preventive services are available for interested patients.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h3 class="section-services-heading3">Restorative Services</h3>
-                    <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingNine">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
-                                        White Fillings
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
-                                <div class="panel-body">
-                                    Appointments are available.  We have 8 hygienist giving us a total of 130 years of hygiene experience.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTen">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                        Silver Fillings
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
-                                <div class="panel-body">
-                                    For functional and affordable treatment we provide amalgam fillings.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingEleven">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                        White Porcelain Inlays/Onlays
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
-                                <div class="panel-body">
-                                    For those looking for the best functional and cosmetic materials available to fill teeth, these are it!
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <h3 class="section-services-heading3">Prosthetic Services</h3>
-                    <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwelve">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
-                                        Crowns & Caps
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
-                                <div class="panel-body">
-                                    Some teeth are so cracked, decayed and broken down that they need full coverage to protect them (Metal, Porcelain-Metal, All porcelain).
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThirteen">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                                        Bridges
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
-                                <div class="panel-body">
-                                    Can be used to replace missing teeth as well as provide coverage of a tooth that is severely cracked, broken or decayed.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFourteen">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                                        Partial Dentures
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
-                                <div class="panel-body">
-                                    Sometimes it is more economical to replace multiple missing teeth by making a removable denture and keep a few of the remained teeth that are strong.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFifteen">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-                                        Full Dentures
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFifteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFifteen">
-                                <div class="panel-body">
-                                    If you are missing most all your teeth a denture will give you teeth to chew with.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h3 class="section-services-heading3">Veneer & Cosmetic Services</h3>
-                    <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingSixteen">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion5" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                                        Bleaching
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSixteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixteen">
-                                <div class="panel-body">
-                                    Evaluations, custom trays w/take home kits or in-office bleaching.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingSeventeen">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion5" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                                        Veneers
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSeventeen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventeen">
-                                <div class="panel-body">
-                                    Composite or porcelain facings are for those looking for the best in cosmetics and restoration quality.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h3 class="section-services-heading3">Dental Implant Therapy</h3>
-                    <div class="panel-group" id="accordion6" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingNineteen">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion6" href="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
-                                        Single Tooth Implant
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseNineteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNineteen">
-                                <div class="panel-body">
-                                    If you are tired of an area where you are missing a tooth, now, with titanium implants, you can have a tooth placed in that area.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwenty">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion6" href="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
-                                        Multiple Teeth Implants
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwenty" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwenty">
-                                <div class="panel-body">
-                                    A key component in full mouth rehabilitation for those missing multiple teeth. With this treatment you can have a completely new smile!
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwentyOne">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion6" href="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
-                                        Implant Supported Dentures
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwentyOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyOne">
-                                <div class="panel-body">
-                                    Help prevent movement of the denture and stabilize the denture for a more long-term custom fit, better chewing and therefore better nutrition.
-                                </div>
-                            </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Bridges</h2></div>
+                        <div class="panel-body">
+                            <h4>Can be used to replace a missing tooth where broken.</h4>
                         </div>
                     </div>
                 </div>
             </div>
-        
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4">
-                    <h3 class="section-services-heading3">Pediatrics and Prevention</h3>
-                    <div class="panel-group" id="accordion7" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwentyTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion7" href="#collapseTwentyTwo" aria-expanded="true" aria-controls="collapseTwentyTwo">
-                                        Child Dental Services 
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwentyTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyTwo">
-                                <div class="panel-body">
-                                    We treat children as early as 2-3 years of age, depending on their level of comfort. If we cannot see them we have qualified specialists that we refer to.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwentyThree">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion7" href="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree">
-                                        Preventative 
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwentyThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyThree">
-                                <div class="panel-body">
-                                    We are strong believers in preventing major dental problems. For this we provide sealants for kids, periodontal maintenance tailored to your needs, fluoride (Varnish, gels, foam applications), calcium (w/fluoride- MI Paste) treatments, and custom treatment for teeth grinding and/or clenching.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--
                 <div class="col-lg-6 col-md-6">
-                    <h3 class="section-services-heading3">Financial & Insurance</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwentyFour">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyFour" aria-expanded="false" aria-controls="collapseTwentyFour">
-                                        Maximize Insurance Benefits
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwentyFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyFour">
-                                <div class="panel-body">
-                                    Evaluations, custom trays w/take home kits or in-office bleaching.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwentyFive">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyFive" aria-expanded="false" aria-controls="collapseTwentyFive">
-                                        File Claims Electronically
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwentyFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyFive">
-                                <div class="panel-body">
-                                    Composite or porcelain facings are for those looking for the best in cosmetics and restoration quality.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwentySix">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentySix" aria-expanded="false" aria-controls="collapseTwentySix">
-                                        Proud Partners with Delta Dental
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwentySix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentySix">
-                                <div class="panel-body">
-                                    Need to decide if we want more information here or if a heading is ok. - RLP 3.16.15
-                                </div>
-                            </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Implants</h2></div>
+                        <div class="panel-body">
+                            <h4>A titanium replacement for a natural tooth root that fuses to the jawbone for the replacement of lost or missing teeth.</h4><h4>This service is performed by Board-Certified Periodontist and Implantologist.  We are also available to restore implants to functional use. </h4>
                         </div>
                     </div>
-                </div> 
-                -->
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Periodontal Procedures</h2></div>
+                        <div class="panel-body">
+                            <h4>This refers to procedures for the soft tissue of the oral cavity.</h4><h4>Such as scaling and root planing, laser curettage, crown lengthening and soft tissue grafting but also includes osseous surgeries like bone grafting.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Invisalign</h2></div>
+                        <div class="panel-body">
+                            <h4>Straightening of the teeth with invisible aligners are offered as well as full orthodontic treatment by a Board-Certified, licensed Orthodontist.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Root Canal</h2></div>
+                        <div class="panel-body">
+                            <h4>This procedure is performed when the nerve of a tooth is infected or compromised.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Extractions</h2></div>
+                        <div class="panel-body">
+                            <h4>When all efforts to save a tooth are exhausted and it is necessary to remove a tooth we offer this service by a surgically experienced professional.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Teeth Whitening</h2></div>
+                        <div class="panel-body">
+                            <h4>If you are unhappy with the brightness of your smile it may be possible to whiten them by a bleaching process.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Veneers</h2></div>
+                        <div class="panel-body">
+                            <h4>If you are looking to enhance the size, shape, length or color of your teeth this can be accomplished by placement of a very thin covering of porcelain on the outer surface of front teeth. 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Composite Bonding</h2></div>
+                        <div class="panel-body">
+                            <h4>Our experienced dentists can change the appearance of shape and color of a tooth with enamel-like material.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Partial and Full Dentures</h2></div>
+                        <div class="panel-body">
+                            <h4>Used to replace a full arch of teeth or several missing teeth. Full dentures can also be used with dental implants for more stability.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h2>Pediatrics</h2></div>
+                        <div class="panel-body">
+                            <h4>We treat children of all ages and are available for Infant information and homecare.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

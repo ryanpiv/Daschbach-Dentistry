@@ -19,65 +19,59 @@
     {
       "name": "Tina",
       "title": "Dental Hygenist",
-      "image": "terb.jpg",
+      "image": "tina.jpg",
       "bio": ""
     },
     {
       "name": "Mattie",
       "title": "Dental Hygenist",
-      "image": "mgehman.jpg",
+      "image": "mattie.jpg",
       "bio": ""
     },
     {
       "name": "Nicole",
       "title": "Dental Hygenist",
-      "image": "nguerrieri.jpg",
+      "image": "",
       "bio": ""
     },
     {
       "name": "Chris",
-      "title": "Dental Hygenist",
-      "image": "clage.jpg",
-      "bio": ""
-    },
-    {
-      "name": "Gail",
-      "title": "Dental Hygenist",
-      "image": "gmills.jpg",
-      "bio": ""
-    },
-    {
-      "name": "Janice",
-      "title": "Dental Hygenist",
-      "image": "jmurray.jpg",
-      "bio": ""
-    },
-    {
-      "name": "Gina",
-      "title": "Dental Hygenist",
-      "image": "gsordini.jpg",
-      "bio": ""
-    },
-    {
-      "name": "Linsey",
-      "title": "Dental Hygenist",
-      "image": "lyothers.jpg",
-      "bio": ""
-    },
-    {
-      "name": "Susan",
-      "title": "Dental Hygenist",
-      "image": "szansitis.jpg",
-      "bio": ""
-    },
-    {
-      "name": "Maryann",
       "title": "Dental Hygenist",
       "image": "",
       "bio": ""
     },
     {
       "name": "Gail",
+      "title": "Dental Hygenist",
+      "image": "gail.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Janice",
+      "title": "Dental Hygenist",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Gina",
+      "title": "Dental Hygenist",
+      "image": "gina.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Linsey",
+      "title": "Dental Hygenist",
+      "image": "",
+      "bio": ""
+    },
+    {
+      "name": "Susan",
+      "title": "Dental Hygenist",
+      "image": "susan.jpg",
+      "bio": ""
+    },
+    {
+      "name": "Maryann",
       "title": "Dental Hygenist",
       "image": "",
       "bio": ""
@@ -90,7 +84,7 @@
     {
       "name": "Jane",
       "title": "Dental Assistant",
-      "image": "jborisow.jpg",
+      "image": "",
       "bio": ""
     },
     {
@@ -108,7 +102,7 @@
     {
       "name": "Sam",
       "title": "Dental Assistant",
-      "image": "",
+      "image": "samantha.jpg",
       "bio": ""
     }
   ],
@@ -119,13 +113,13 @@
     {
       "name": "Joyce",
       "title": "Administrative Assistant",
-      "image": "jblattner.jpg",
+      "image": "joyce.jpg",
       "bio": ""
     },
     {
       "name": "Mandy",
       "title": "Administrative Assistant",
-      "image": "",
+      "image": "mandy.jpg",
       "bio": ""
     },
     {
@@ -173,7 +167,7 @@
     {
       "name": "Donna",
       "title": "Administrative Assistant",
-      "image": "",
+      "image": "donna.jpg",
       "bio": ""
     }
   ]
