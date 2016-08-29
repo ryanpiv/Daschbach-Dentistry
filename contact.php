@@ -95,7 +95,7 @@
   </section>
 
   <section class="contact-maps">
-    <div class="container">
+    <div class="container-fluid">
       <?php include('google-map.php'); ?>
     </div>
   </section>
