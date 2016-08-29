@@ -255,11 +255,15 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
         function btnAddCurrent(){
             if(validateEntry() == true) {
                 $.getJSON( "../admin_files/careers/careers.json", function( data ) {
+                    if(data.length == 0){
+                        console.log('empty');
+                    }
                     $.each( data, function( key, val ) {
                         items.push(val);
                     });
                     var json = ' [{ ';
 
+                    console.log(json);
                     json += '"title" : "' + $('#input-title').val() + '", ';
                     json += '"location" : "' + $('#input-type').val() + '", ';
                     json += '"type" : "' + $('#input-experience').val() + '", ';
@@ -300,6 +304,12 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
                     $.post('post-json.php', 'data=' + data).done(function(response){
                         location.reload();
                     });
+
+                })
+                .fail(function (jqxhr, textStatus, error ) {
+                    console.log('fail');
+                    var err = textStatus + ", " + error;
+                    console.log( "Request Failed: " + err );
                 });
             }
         }
