@@ -18,7 +18,7 @@
     				Browse our open and available positions.
     			</p>
     			<p>
-    				Don't see what you're looking for? We're always open to anyone who believes they'll be a great fit. Send us an email with your resume and reason for sending to <a href="#">careers@daschbachdenstistry.com</a>
+    				Don't see what you're looking for? We're always open to anyone who believes they'll be a great fit. Send us an email with your resume and reason for sending to <a href="#">careers@daschbach.com</a>
     			</p>
     		</div>
     	</div>
