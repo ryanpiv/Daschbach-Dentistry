@@ -110,11 +110,11 @@
                         After her undergraduate work Dr. Marie was accepted into Temple School of Dentistry where she completed her doctorate with honors. Her academic excellence landed her a spot in a coveted two-year residency at Albert Einstein Medical Center. It was here that she cultivated her skills regarding prosthetic and cosmetic dentistry which helped her achieve the Resident of the Year Award and the Special Care Organizational Award in Research. 
                         <br/>
                         <br/>
-                        She is a member of the Academy of General Dentistry and continues to take Continuing Education courses in esthetics so she can provide the most cutting-edge esthetic and functional dental care available. 
+                        She is a Fellow of the Academy of General Dentistry and continues to take Continuing Education courses in esthetics so she can provide the most cutting-edge esthetic and functional dental care available. 
                         <h3 class="doctor-bio-header-alt">Career</h3>
                         Dr. Marie joined Daschbach and Associates in 1996, working full-time and enjoying the area and patients tremendously. She can also be found volunteering for local school doing dental exams for children and assisting Dr. Bob with the dental mission projects. 
                         <h3 class="doctor-bio-header-alt">Today</h3>
-                        When away from work Dr. Marie enjoys spending time with her husband Frank and has a very large wonderful cat named Princess. She enjoys bible study and being involved with the local church community. She and her husband both enjoy traveling, exercise, tennis, and skiing. Family is very important to both of them so they can be found spending time with their nine siblings and ten nieces and nephews.
+                        When away from work Dr. Marie enjoys spending time with her husband Frank and her three little cats. She enjoys bible study and being involved with the local church community. She and her husband both enjoy traveling, exercise, tennis, and skiing. Family is very important to both of them so they can be found spending time with their nine siblings and ten nieces and nephews.
                     </p>
                 </div>
             </div>
