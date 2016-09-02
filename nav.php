@@ -7,11 +7,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.php" class="navbar-brand">R.L. Daschbach &amp; Associates</a>
+                <a href="index" class="navbar-brand">R.L. Daschbach &amp; Associates</a>
             </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="services.php">Services</a></li>
+                <li><a href="services">Services</a></li>
                 <li class="formDD" role="presentation"><a data-toggle="modal" data-target="#financialModal">Financial</a></li>
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">New Patient Forms
@@ -25,23 +25,23 @@
                         </ul>
                     </a>
                 </li>
-                <li><a href="photo_gallery.php">Photo Gallery</a></li>
+                <li><a href="photo_gallery">Photo Gallery</a></li>
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">About Us
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="meet_the_doctors.php">Meet the Doctors</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="our_staff.php">Our Staff</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="meet_the_doctors">Meet the Doctors</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="our_staff">Our Staff</a></li>
                         </ul>
                     </a>
                 </li>
-                <li><a href="contact.php">Contact &amp; Directions</a></li>
+                <li><a href="contact">Contact &amp; Directions</a></li>
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Job Opportunities
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="careers.php">Open Positions</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="mission_statement.php">Mission Statement</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="careers">Open Positions</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="mission_statement">Mission Statement</a></li>
                         </ul>
                     </a>
                 </li>
