@@ -20,7 +20,7 @@
 <script type="text/javascript">
 //<![CDATA[
 var geocoder = new google.maps.Geocoder();
-var address = "390 Harleysville Pike Souderton, PA 18964"; //Add your address here, all on one line.
+var address = "392 Harleysville Pike Souderton, PA 18964"; //Add your address here, all on one line.
 var latitude;
 var longitude;
 var color = "#ccc"; //Set your tint color. Needs to be a hex value.
@@ -47,7 +47,7 @@ function initGoogleMap() {
 			mapTypeIds: ['Styled']
 		},
 		center: new google.maps.LatLng(latitude, longitude),
-		zoom: 13,
+		zoom: 16,
 		scrollwheel: false,
 		navigationControl: false,
 		mapTypeControl: false,
