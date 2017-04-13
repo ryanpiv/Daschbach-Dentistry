@@ -3,7 +3,7 @@
     <div class="container">
         <p class="footer-text">"I can do everything through him who gives me strength."</p>
         <legend style="margin-bottom:10px"></legend>
-        <p>- Philippians 4:3</p>
+        <p>- Philippians 4:13</p>
     </div>
 </footer>
 <!-- Scripts -->
@@ -18,6 +18,6 @@
 		try{
 			initGoogleMap();
 		} catch(err) { console.log(err); }
-		
+
 	});
 </script>
