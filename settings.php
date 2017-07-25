@@ -34,7 +34,5 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-103027495-2', 'auto');
-  ga('create', 'UA-103027495-3', {'cookieDomain': 'rldaschbach.com'});
-  ga('create', 'UA-103027495-4', {'cookieDomain': 'daschbach.com'});
   ga('send', 'pageview');
 </script>
