@@ -1,46 +1,94 @@
 /*--index.php*/
-.welcome-section{
-	background-image:url("../images/office_overlay.jpg");
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-	color: white;
-	position: relative;
-	overflow: hidden;
+.welcome-section {
+    background-image: url("../images/office_overlay.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
-.welcome-text{
-	font-family: "basic_title_font", Arial;
-	font-size:60px;
-	font-weight: 600;
+
+.welcome-section a {
+	color: #56b1ff !important;
 }
-.subtitle{
-	font-size:20px;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+
+.welcome-section a:hover {
+	color: #1d73bf !important;
 }
-.welcome-carousel{
-	position: relative;
-	padding-top:3%;
-	padding-bottom: 3%;
-	background-color: #eeeeee;
-	background-size:cover;
+
+.welcome-section .glyphicon {
+	margin-bottom:5px;
 }
-.item-office{
-	background-image:url("../images/land5.jpg");
-	background-size:cover;
+
+.welcome-text {
+    font-family: "basic_title_font", Arial;
+    font-size: 60px;
+    font-weight: 600;
 }
-.statement-section{
-	padding-top: 6%;
-	padding-bottom: 6%;
+
+.welcome-center{
+	min-height:100vh;
 }
-.statement-container{
-	text-align: center;
+
+.welcome-contact {
+	padding-top: 20px;
+}
+
+.welcome-contact > div {
+	margin: 20px;
+}
+
+.welcome-contact-info-heading, .welcome-contact-address{
+	color: #8C8C8C;
+}
+.welcome-contact-address{
+	line-height: 25px;
+	font-size:18px;
+}
+
+.phone-heading,
+.fax-heading,
+.address-heading,
+.email-heading {
+	margin-bottom:20px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.welcome-carousel {
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #eeeeee;
+    background-size: cover;
+}
+
+.item-office {
+    background-image: url("../images/land5.jpg");
+    background-size: cover;
+}
+
+.statement-section {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.statement-container {
+    text-align: center;
 
 }
-.statement-heading{
-	font-family: "sanford",georgia,serif;
-	font-size:45px;
+
+.statement-heading {
+    font-family: "sanford", georgia, serif;
+    font-size: 45px;
 }
-.statement-details{
-	font-family: "sanford",georgia,serif;
-	font-size:25px;
+
+.statement-details {
+    font-family: "sanford", georgia, serif;
+    font-size: 25px;
 }

@@ -30,8 +30,16 @@
         <h1 class="phone-number"><a href="tel:215-721-8811">215-721-8811</a></h1>
         <h4>24 hour on call service</h4>
       </div>
-      <h3 class="fax-heading">Fax</h3>
-      <h4 class="fax-number">215-721-5393</h4>
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-3 col-sm-12">
+          <h3 class="fax-heading">Fax</h3>
+          <h4 class="fax-number">215-721-5393</h4>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <h3 class="email-heading">Email</h3>
+          <h4 class="email"><a href="mailto:reception@daschbach.com">reception@daschbach.com</a></h4>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -95,7 +103,7 @@
   </section>
 
   <section class="contact-maps">
-    <div class="container-fluid">
+    <div class="container-fill-width">
       <?php include('google-map.php'); ?>
     </div>
   </section>
