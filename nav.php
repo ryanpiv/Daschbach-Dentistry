@@ -12,9 +12,9 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="services">Services</a></li>
-                <li class="formDD" role="presentation"><a data-toggle="modal" data-target="#financialModal">Financial</a></li>
+                <li class="formDD" role="presentation"><a data-toggle="modal" data-target="#financialModal">Financial Policy</a></li>
                 <li>
-                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">New Patient Forms
+                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">In-Network Insurances
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
                             <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa1Modal">HIPPA Form One</a></li>
@@ -35,7 +35,7 @@
                         </ul>
                     </a>
                 </li> -->
-                <li><a href="meet_the_doctors">About Us</a></li>
+                <li><a href="meet_the_doctors">Our Doctors</a></li>
                 <li><a href="contact">Contact &amp; Directions</a></li>
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Job Opportunities
