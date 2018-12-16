@@ -107,7 +107,7 @@
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <iframe class="iframe-forms" src="forms/medicalhistory.pdf"></iframe>
+                                    <iframe class="iframe-forms" src=""></iframe>
                                 </div>
                             </div>
 
@@ -131,11 +131,11 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Surgical Form</h4>
+                                <h4 class="modal-title" id="myModalLabel">Patient Registration and Dental History</h4>
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <iframe class="iframe-forms" src="forms/surgical.pdf"></iframe>
+                                    <iframe class="iframe-forms" src="forms/Patient-Registration-&-Dental-History-Final-2018.pdf"></iframe>
                                 </div>
                             </div>
 

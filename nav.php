@@ -12,21 +12,21 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="services">Services</a></li>
-                <li class="formDD" role="presentation"><a data-toggle="modal" data-target="#financialModal">Financial</a></li>
+                <li class="formDD" role="presentation"><a data-toggle="modal" data-target="#financialModal">Financial Policy</a></li>
                 <li>
-                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">New Patient Forms
+                    <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">In-Network Insurances
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
                             <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa1Modal">HIPPA Form One</a></li>
                             <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#hippa2Modal">HIPPA Form Two</a></li>
+                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#financialModal">Financial Policy Form</a></li>
                             <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#medHistModal">Medical History Form</a></li>
-                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#surgModal">Surgical Form</a></li>
-
+                            <li class="formDD" role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#surgModal">Patient Registration and Dental History Form</a></li>
                         </ul>
                     </a>
                 </li>
                 <li><a href="photo_gallery">Photo Gallery</a></li>
-                <li>
+                <!-- <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">About Us
                         <span class="caret"></span>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropwdownMenu2">
@@ -34,7 +34,8 @@
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="our_staff">Our Staff</a></li>
                         </ul>
                     </a>
-                </li>
+                </li> -->
+                <li><a href="meet_the_doctors">Our Doctors</a></li>
                 <li><a href="contact">Contact &amp; Directions</a></li>
                 <li>
                     <a class="dropdown dropdown-toggle" id="dropwdownMenu2" data-toggle="dropdown" aria-expanded="true">Job Opportunities
@@ -112,24 +113,27 @@
     <div class="container modal-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12">
-                <!-- Medical History Modal -->
+                <!-- Health History Modal -->
                 <div class="modal fade" id="medHistModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Medical History Form</h4>
+                                <h4 class="modal-title" id="myModalLabel">Health History Form</h4>
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <embed class="iframe-forms" src="forms/medicalhistory.pdf" type='application/pdf'></embed>
+                                    <embed class="iframe-forms" src="forms/Health-History-Final-2018.pdf" type='application/pdf'></embed>
                                 </div>
                             </div>
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 <button type="button" class="btn btn-primary">
-                                    <a class="btn-dl" href="forms/medicalhistory.pdf"" download="MedicalHistory.pdf">Download PDF</a>
+                                    <a class="btn-dl" href="forms/Health-History-Final-2018.pdf" download="Health-History-Final-2018.pdf">Download PDF</a>
+                                </button>
+                                <button type="button" class="btn btn-primary">
+                                    <a class="btn-dl" href="forms/Health-History-Final-2018.docx" download="Health-History-Final-2018.docx">Download Word</a>
                                 </button>
                             </div>
                         </div>
@@ -142,24 +146,27 @@
     <div class="container modal-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12">
-                <!-- Surgery Modal -->
+                <!-- Patient Registration and Dental History Modal -->
                 <div class="modal fade" id="surgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Surgical Form</h4>
+                                <h4 class="modal-title" id="myModalLabel">Patient Registration and Dental History Form</h4>
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <embed class="iframe-forms" src="forms/surgical.pdf" type='application/pdf'></embed>
+                                    <embed class="iframe-forms" src="forms/Patient-Registration-&-Dental-History-Final-2018.pdf" type='application/pdf'></embed>
                                 </div>
                             </div>
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 <button type="button" class="btn btn-primary">
-                                    <a class="btn-dl" href="forms/surgical.pdf" download="SurgicalForm.pdf">Download PDF</a>
+                                    <a class="btn-dl" href="forms/Patient-Registration-&-Dental-History-Final-2018.pdf" download="Patient-Registration-&-Dental-History-Final-2018.pdf">Download PDF</a>
+                                </button>
+                                <button type="button" class="btn btn-primary">
+                                    <a class="btn-dl" href="forms/Patient-Registration-&-Dental-History-Final-2018.docx" download="Financial-Agreement-Final-2018.docx">Download Word</a>
                                 </button>
                             </div>
                         </div>
@@ -172,27 +179,27 @@
     <div class="container modal-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12">
-                <!-- Surgery Modal -->
+                <!-- Financial Modal -->
                 <div class="modal fade" id="financialModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content forms">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Insurances &amp; Patients Financial Responsibility</h4>
+                                <h4 class="modal-title" id="myModalLabel">Office Financial Policy Agreement</h4>
                             </div>
                             <div class="modal-body">
                                 <div>
-                                    <embed class="iframe-forms" src="forms/FinancialPolicy.pdf" type='application/pdf'></embed>
+                                    <embed class="iframe-forms" src="forms/Financial-Agreement-Final-2018.pdf" type='application/pdf'></embed>
                                 </div>
                             </div>
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 <button type="button" class="btn btn-primary">
-                                    <a class="btn-dl" href="forms/FinancialPolicy.pdf" download="FinancialPolicy.pdf">Download PDF</a>
+                                    <a class="btn-dl" href="forms/Financial-Agreement-Final-2018.pdf" download="Financial-Agreement-Final-2018.pdf">Download PDF</a>
                                 </button>
                                 <button type="button" class="btn btn-primary">
-                                    <a class="btn-dl" href="forms/FinancialPolicy.docx" download="FinancialPolicy.docx">Download Word</a>
+                                    <a class="btn-dl" href="forms/Financial-Agreement-Final-2018.docx" download="Financial-Agreement-Final-2018.docx">Download Word</a>
                                 </button>
                             </div>
                         </div>

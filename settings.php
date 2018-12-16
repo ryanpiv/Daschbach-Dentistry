@@ -15,9 +15,10 @@
 
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
-<link href="customCSS/custom.css" rel="stylesheet" type="text/css" />
+<link href="customCSS/all.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/bootstrap-modal-carousel-master/dist/css/bootstrap-modal-carousel.css" rel="stylesheet" />
 <link rel="icon" type="image/png" href="favicon.ico" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
 <script src="bootstrap/bootstrap-modal-carousel-master/dist/js/bootstrap-modal-carousel.js"/></script/>
 
